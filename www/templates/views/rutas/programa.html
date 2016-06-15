@@ -1,0 +1,34 @@
+<ion-view view-title="Seleccione el programa">
+  <ion-content>
+    <p style="text-align:justify; padding: 25px;">las rutas son los trayectos que el estudiante encuentra dentro del plan de estudios que visibilizan las oportunidades académicas que le permitirán la consecución de sus  intereses y necesidades de formación. Las rutas contienen la  información de asignaturas optativas y de libre elección, que están articuladas a los  objetivos del programa, campos de acción profesional y  perfiles del egresado, facilitando  que el estudiante oriente la elección de asignaturas con miras al ejercicio futuro de su profesión</p>
+
+    <form class="" action="index.html" method="post">
+      <div class="list">
+        <label class="item item-input item-select">
+          <div class="input-label">
+            Sede
+          </div>
+          <select name="sede" id="sede" ng-model="sede.repeatSelect">
+            <option ng-repeat="option in sede.availableOptions" value="{{option.id}}">{{option.name}}</option>
+          </select>
+        </label>
+        <label class="item item-input item-select">
+          <div class="input-label">
+            Facultad
+          </div>
+          <select name="facultad" id="facultad" ng-model="facultad.repeatSelect" ng-disabled="!sede.repeatSelect">
+            <option ng-repeat="option in facultad.availableOptions" value="{{option.id}}">{{option.name}}</option>
+          </select>
+        </label>
+        <label class="item item-input item-select">
+          <div class="input-label">
+            Programa
+          </div>
+          <select name="programa" id="programa" ng-model="programa.repeatSelect" ng-disabled="!sede.repeatSelect && !facultad.repeatSelect">
+            <option ng-repeat="option in programa.availableOptions" value="{{option.id}}">{{option.name}}</option>
+          </select>
+        </label>
+      </div>
+    </form>
+  </ion-content>
+</ion-view>
