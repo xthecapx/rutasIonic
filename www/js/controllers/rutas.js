@@ -1,6 +1,6 @@
 angular.module('starter.controllers')
 
-.controller('RutasController', ['$scope', '$http', '$location', 'sedesService', 'facultadService', function($scope, $http, $location, sedesService, facultadService) {
+.controller('RutasController', ['$scope', '$http', '$location', 'sedesService', 'facultadService', 'ApiEndpoint', function($scope, $http, $location, sedesService, facultadService, ApiEndpoint) {
 
   $scope.sede = {
     repeatSelect: null,
@@ -30,7 +30,7 @@ angular.module('starter.controllers')
   $scope.$watch('[sede.repeatSelect, facultad.repeatSelect, programa.repeatSelect]', function (newValue, oldValue) {
     if (newValue[0] !== oldValue[0]) {
       $http({
-        url: "./api/api_facultades",
+        url:  ApiEndpoint.url + "/api_facultades",
         method: "GET",
         params: {sede_id: $scope.sede.repeatSelect}
       }).success(function(response) {
@@ -43,7 +43,7 @@ angular.module('starter.controllers')
 
     if (newValue[1] !== oldValue[1]) {
       $http({
-        url: "./api/api_programas",
+        url:  ApiEndpoint.url + "/api_programas",
         method: "GET",
         params: {facultad_id: $scope.facultad.repeatSelect}
       }).success(function(response) {
@@ -57,7 +57,7 @@ angular.module('starter.controllers')
     if (newValue[2] !== oldValue[2]) {
        $scope.showButton = true;
     }
-    
+
   }, true);
 
 }]);
