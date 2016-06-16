@@ -1,6 +1,6 @@
 angular.module('starter.controllers')
 
-.controller('RutasController', ['$scope', '$http', 'sedesService', 'facultadService', function($scope, $http, sedesService, facultadService) {
+.controller('RutasController', ['$scope', '$http', '$location', 'sedesService', 'facultadService', function($scope, $http, $location, sedesService, facultadService) {
 
   $scope.sede = {
     repeatSelect: null,
@@ -16,6 +16,8 @@ angular.module('starter.controllers')
     repeatSelect: null,
     availableOptions: []
   };
+
+  $scope.showButton = false;
 
   $scope.SelectedPerfiles = null;
 
@@ -53,9 +55,9 @@ angular.module('starter.controllers')
     }
 
     if (newValue[2] !== oldValue[2]) {
-      /* Habilitar boton y hacer peticion a
-       http://retalapp.com/rutas/rutas/api_perfiles?programa_id=220509*/
+       $scope.showButton = true;
     }
+    
   }, true);
 
 }]);

@@ -2,7 +2,6 @@
   <ion-content>
     <p style="text-align:justify; padding: 25px;">las rutas son los trayectos que el estudiante encuentra dentro del plan de estudios que visibilizan las oportunidades académicas que le permitirán la consecución de sus  intereses y necesidades de formación. Las rutas contienen la  información de asignaturas optativas y de libre elección, que están articuladas a los  objetivos del programa, campos de acción profesional y  perfiles del egresado, facilitando  que el estudiante oriente la elección de asignaturas con miras al ejercicio futuro de su profesión</p>
 
-    <form class="" action="index.html" method="post">
       <div class="list">
         <label class="item item-input item-select">
           <div class="input-label">
@@ -29,6 +28,10 @@
           </select>
         </label>
       </div>
-    </form>
+
+      <button class="button button-positive" ui-sref="app.perfiles({programa_id: programa.repeatSelect})" ng-if="showButton">
+        Go to next step
+      </button>
+
   </ion-content>
 </ion-view>

@@ -48,6 +48,16 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         controller: 'RutasController'
       }
     }
+  })
+
+  .state('app.perfiles', {
+    url: '/rutas/perfiles/:programa_id',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/views/rutas/perfiles.html',
+        controller: 'PerfilesController'
+      }
+    }
   });
 
   // if none of the above states are matched, use this as the fallback
