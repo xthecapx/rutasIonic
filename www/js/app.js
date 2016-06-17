@@ -45,7 +45,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     views: {
       'menuContent': {
         templateUrl: 'templates/views/rutas/programa.html',
-        controller: 'RutasController'
+        controller: 'ProgramasController'
       }
     }
   })
