@@ -58,6 +58,16 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         controller: 'PerfilesController'
       }
     }
+  })
+
+  .state('app.asignaturas', {
+    url: '/rutas/perfiles/asignaturas/:perfil_id',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/views/rutas/asignaturas.html',
+        controller: 'AsignaturasController'
+      }
+    }
   });
 
   // if none of the above states are matched, use this as the fallback

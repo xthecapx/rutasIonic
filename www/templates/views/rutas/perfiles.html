@@ -1,7 +1,12 @@
-<ion-view view-title="Viendo Perfiles">
+<ion-view view-title="Perfiles">
   <ion-content>
-    <ion-item collection-repeat="perfil in perfiles">
-      {{perfil.perfil}}
+    <ion-item collection-repeat="item in perfiles">
+        <div ui-sref="app.asignaturas({perfil_id: item.id})">
+    			<h2><span>Nombre: </span>{{item.perfil}} | {{item.total_creditos}} Créditos</h2>
+    			<p class="justificado">
+            <span>Descripción: </span>{{item.descripcion}}
+          </p>
+        </div>
     </ion-item>
   </ion-content>
 </ion-view>

@@ -1,0 +1,13 @@
+<ion-view view-title="Asignaturas">
+  <ion-content>
+    <ion-item collection-repeat="item in asignaturas">
+      <h2>{{item.asignatura.asignatura}}</h2>
+      <p>
+				<span>Codigo: </span>{{item.asignatura.asignatura_id}} <br>
+        <span>Agrupación: </span>{{item.asignatura.agrupacion}}<br>
+				<span>Créditos: </span>{{item.asignatura.creditos}}<br>
+        <span>Tipologia: </span> {{item.asignatura.tipologia}}
+			</p>
+    </ion-item>
+  </ion-content>
+</ion-view>
