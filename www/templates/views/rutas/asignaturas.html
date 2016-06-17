@@ -8,6 +8,12 @@
 				<span>Créditos: </span>{{item.asignatura.creditos}}<br>
         <span>Tipologia: </span> {{item.asignatura.tipologia}}
 			</p>
+      <div class="Requisitos">
+					<h3>Requisitos</h3>
+					<ol ng-repeat="item in item.asignatura.requisitos">
+					  <li>{{item.requisito}}</li>
+					</ol>
+			</div>
     </ion-item>
   </ion-content>
 </ion-view>
