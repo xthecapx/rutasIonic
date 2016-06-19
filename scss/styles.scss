@@ -1,0 +1,45 @@
+/* Empty. Add your own CSS if you like */
+.card {
+  margin: 3% auto;
+  width: 95%;
+}
+
+.menu-unal .item-content {
+  background-color: #333;
+  color: white;
+}
+
+.bar {
+  &.bar-stable {
+    background-color: #666666;
+
+    .title {
+      color: white;
+    }
+    .button {
+      &.button-clear {
+        color: white;
+      }
+    }
+  }
+}
+
+.asignaturas {
+  .card .row .col:first-child {
+    font-weight: bold;
+  }
+
+  ol {
+    font-weight:bolder;
+    list-style-type: upper-roman;
+    padding: inherit;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    li {
+      span {
+        font-weight: normal;
+      }
+    }
+  }
+}

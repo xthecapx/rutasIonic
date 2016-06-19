@@ -1,19 +1,35 @@
-<ion-view view-title="Asignaturas">
+<ion-view class="asignaturas" view-title="{{perfilName}}">
   <ion-content>
-    <ion-item collection-repeat="item in asignaturas">
-      <h2>{{item.asignatura.asignatura}}</h2>
-      <p>
-				<span>Codigo: </span>{{item.asignatura.asignatura_id}} <br>
-        <span>Agrupación: </span>{{item.asignatura.agrupacion}}<br>
-				<span>Créditos: </span>{{item.asignatura.creditos}}<br>
-        <span>Tipologia: </span> {{item.asignatura.tipologia}}
-			</p>
-      <div class="Requisitos">
-					<h3>Requisitos</h3>
+    <div class="list card" ng-repeat="item in asignaturas">
+      <div class="item item-divider item-text-wrap">
+        {{item.asignatura.asignatura}}
+      </div>
+
+      <div class="item item-text-wrap">
+        <div class="row">
+          <div class="col">Codigo</div>
+          <div class="col col-67">{{item.asignatura.asignatura_id}}</div>
+        </div>
+        <div class="row">
+          <div class="col">Agrupación</div>
+          <div class="col col-67">{{item.asignatura.agrupacion}}</div>
+        </div>
+        <div class="row">
+          <div class="col">Créditos</div>
+          <div class="col col-67">{{item.asignatura.creditos}}</div>
+        </div>
+        <div class="row">
+          <div class="col">Tipologia</div>
+          <div class="col col-67">{{item.asignatura.tipologia}}</div>
+        </div>
+			</div>
+
+      <div class="item item-text-wrap Requisitos">
+					<strong>Requisitos</strong>
 					<ol ng-repeat="item in item.asignatura.requisitos">
-					  <li>{{item.requisito}}</li>
+					  <li><span>{{item.requisito}}</span></li>
 					</ol>
 			</div>
-    </ion-item>
+    </div>
   </ion-content>
 </ion-view>

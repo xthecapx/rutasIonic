@@ -28,10 +28,12 @@
           </select>
         </label>
       </div>
-
-      <button class="button button-positive" ui-sref="app.perfiles({programa_id: programa.repeatSelect})" ng-if="showButton">
-        Go to next step
-      </button>
-
+      <div class="row">
+        <div class="col text-center">
+          <button class="button icon-left ion-ios-eye button-balanced" ui-sref="app.perfiles({programa_id: programa.repeatSelect})" ng-if="showButton">
+            Ver rutas
+          </button>
+        </div>
+      </div>
   </ion-content>
 </ion-view>

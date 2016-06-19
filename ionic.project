@@ -6,5 +6,13 @@
       "path": "/api",
       "proxyUrl": "http://retalapp.com/rutas/rutas"
     }
+  ],
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
   ]
 }

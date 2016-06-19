@@ -61,7 +61,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   })
 
   .state('app.asignaturas', {
-    url: '/rutas/perfiles/asignaturas/:perfil_id',
+    url: '/rutas/perfiles/asignaturas/:perfil_id/:perfil_name',
     views: {
       'menuContent': {
         templateUrl: 'templates/views/rutas/asignaturas.html',
