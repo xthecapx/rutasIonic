@@ -9909,3 +9909,14 @@ a.button {
   opacity: 1;
   visibility: visible;
   position: relative; }
+
+/* Info messages */
+.message.info {
+  box-shadow: 0 0 0 1px #A9D5DE inset,0 0 0 0 transparent;
+  background-color: #F8FFFF;
+  color: #276F86;
+  font-size: 1em;
+  max-width: 700px;
+  border-radius: 5px;
+  padding: 2% 3%;
+  margin: 1% 0; }

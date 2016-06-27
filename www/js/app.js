@@ -73,3 +73,24 @@ angular.module('starter', ['ionic', 'starter.controllers'])
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/home');
 });
+
+
+angular.module('starter')
+
+.directive('tooltip', function () {
+    return {
+        restrict: 'C',
+        link: function (scope, element, attrs) {
+            if (attrs.title) {
+                var $element = $(element);
+                $element.attr("title", attrs.title);
+                $element.tooltipster({
+                    animation: attrs.animation,
+                    trigger: "click",
+                    touchDevices: true,
+                    contentAsHTML: true
+                });
+            }
+        }
+    };
+});

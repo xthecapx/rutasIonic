@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "jQuery": "3.0.0",
-    "Ionicons": "ionicons#^2.0.1"
+    "Ionicons": "ionicons#^2.0.1",
+    "tooltipster": "^4.0.4"
   }
 }
