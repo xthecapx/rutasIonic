@@ -9817,8 +9817,15 @@ a.button {
 
 /* Empty. Add your own CSS if you like */
 .card {
-  margin: 3% auto;
+  margin: 0 auto;
   width: 95%; }
+
+.list {
+  margin-bottom: 1%; }
+  .list:first-child {
+    margin-top: 1%; }
+  .list.item {
+    padding: 0 1%; }
 
 .menu-unal .item-content {
   background-color: #333;
@@ -9842,3 +9849,63 @@ a.button {
   padding-bottom: 5px; }
   .asignaturas ol li span {
     font-weight: normal; }
+
+.back {
+  background-color: #006325; }
+
+.flipper {
+  overflow: hidden; }
+
+.flipper {
+  perspective: 600px;
+  -webkit-perspective: 600px;
+  -moz-perspective: 600px;
+  -webkit-transform-origin: 100% center;
+  -moz-transform-origin: 100% center;
+  -ms-transform-origin: 100% center;
+  transform-origin: 100% center; }
+
+.front-card, .back-card {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -o-transition: transform 0.3s ease-in-out;
+  -moz-transition: transform 0.3s ease-in-out;
+  -webkit-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, heigth 0, visibility 0, opacity 0.3 linear; }
+
+.front-card {
+  z-index: 2;
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  opacity: 1;
+  visibility: visible;
+  position: relative; }
+
+.flipper.flip .front-card {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  opacity: 0;
+  visibility: hidden;
+  position: absolute; }
+
+.back-card {
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+  opacity: 0;
+  visibility: hidden;
+  position: absolute; }
+
+.flipper.flip .back-card {
+  -webkit-transform: rotateY(0deg);
+  -moz-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  opacity: 1;
+  visibility: visible;
+  position: relative; }
