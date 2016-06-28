@@ -9911,6 +9911,10 @@ a.button {
   position: relative; }
 
 /* Info messages */
+.info {
+  position: relative;
+  text-align: center; }
+
 .message.info {
   box-shadow: 0 0 0 1px #A9D5DE inset,0 0 0 0 transparent;
   background-color: #F8FFFF;
@@ -9919,7 +9923,7 @@ a.button {
   max-width: 700px;
   border-radius: 5px;
   padding: 2% 3%;
-  margin: 1% 0; }
+  margin: 15px 0 25px; }
 
 .tooltip {
   display: none;
@@ -9970,3 +9974,25 @@ a.button {
   border-top: 5px solid transparent;
   border-bottom: 5px solid transparent;
   border-left: 5px solid #222; }
+
+.tooltip-left-badged .tooltip-arrow {
+  right: -5px;
+  top: 6%;
+  margin-top: -3px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #222; }
+
+.tooltip-circle {
+  width: 35px;
+  height: 35px;
+  background: #276F86;
+  color: #F8FFFF;
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  vertical-align: middle;
+  bottom: 50%;
+  right: 3%; }
+  .tooltip-circle:before {
+    padding-top: 10px; }

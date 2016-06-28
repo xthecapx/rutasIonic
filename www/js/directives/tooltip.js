@@ -45,6 +45,10 @@ angular.module('starter.directives', [])
            offset.top = pos.top + elHeight + tipOffset;
            offset.left = pos.left - (tipWidth / 2) + (elWidth / 2);
          }
+         else if(tip.hasClass('tooltip-left-badged')) {
+           offset.top = pos.top;
+           offset.left = pos.left - tipWidth - tipOffset;
+         }
          else {
            offset.top = pos.top - tipHeight - tipOffset;
            offset.left = pos.left - (tipWidth / 2) + (elWidth / 2);

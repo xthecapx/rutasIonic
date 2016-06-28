@@ -1,3 +1,6 @@
+$blue-dark: #276F86;
+$blue-light: #F8FFFF;
+
 /* Empty. Add your own CSS if you like */
 .card {
   margin: 0 auto;
@@ -133,16 +136,21 @@
 
 /* Info messages */
 
+.info {
+  position: relative;
+  text-align: center;
+}
+
 .message {
   &.info {
     box-shadow: 0 0 0 1px #A9D5DE inset,0 0 0 0 transparent;
-    background-color: #F8FFFF;
-    color: #276F86;
+    background-color: $blue-light;
+    color: $blue-dark;
     font-size: 1em;
     max-width: 700px;
     border-radius: 5px;
     padding: 2% 3%;
-    margin: 1% 0;
+    margin: 15px 0 25px;
   }
 }
 
@@ -171,34 +179,61 @@
   top: -5px;
   left: 50%;
   margin-left: -5px;
-	  border-left: 5px solid transparent;
-	  border-right: 5px solid transparent;
-	  border-bottom: 5px solid #222;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid #222;
 }
 
 .tooltip-up .tooltip-arrow {
   bottom: -5px;
   left: 50%;
   margin-left: -5px;
-  	border-left: 5px solid transparent;
-	  border-right: 5px solid transparent;
-	  border-top: 5px solid #222;
+  border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #222;
 }
 
 .tooltip-right .tooltip-arrow {
   left: -5px;
   top: 50%;
   margin-top: -3px;
-  	border-top: 5px solid transparent;
-	  border-bottom: 5px solid transparent;
-	  border-right: 5px solid #222;
+  border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-right: 5px solid #222;
 }
 
 .tooltip-left .tooltip-arrow {
   right: -5px;
   top: 50%;
   margin-top: -3px;
-  	border-top: 5px solid transparent;
-	  border-bottom: 5px solid transparent;
-	  border-left: 5px solid #222;
+  border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid #222;
+}
+
+.tooltip-left-badged .tooltip-arrow {
+  right: -5px;
+  top: 6%;
+  margin-top: -3px;
+  border-top: 5px solid transparent;
+	border-bottom: 5px solid transparent;
+	border-left: 5px solid #222;
+}
+
+.tooltip-circle {
+  $radius: 35px;
+  width: $radius;
+  height: $radius;
+  background: $blue-dark;
+  color: $blue-light;
+  position: absolute;
+  display: block;
+  border-radius: 50%;
+  vertical-align: middle;
+  bottom: 50%;
+  right: 3%;
+
+  &:before {
+    padding-top: 10px;
+  }
 }
