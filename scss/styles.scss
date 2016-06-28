@@ -237,3 +237,9 @@ $blue-light: #F8FFFF;
     padding-top: 10px;
   }
 }
+
+select, label {
+  &.disabled {
+    background: #D3D3D3;
+  }
+}

@@ -9996,3 +9996,6 @@ a.button {
   right: 3%; }
   .tooltip-circle:before {
     padding-top: 10px; }
+
+select.disabled, label.disabled {
+  background: #D3D3D3; }
