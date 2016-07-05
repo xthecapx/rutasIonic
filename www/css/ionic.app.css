@@ -10003,4 +10003,5 @@ select.disabled, label.disabled {
 .spinner svg {
   position: absolute;
   top: 20%;
-  left: 50%; }
+  left: 50%;
+  z-index: 100; }

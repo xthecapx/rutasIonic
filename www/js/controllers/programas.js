@@ -4,37 +4,37 @@ angular.module('starter.controllers')
   var httpCall = function(call) {
     this._call = call;
     this._scope = $scope;
-    var _call = this._call;
-    var _scope = this._scope;
+    var _self = this;
 
-    /* Http Callbacks*/
-    var successCallback = function(response) {
+    var _success = function(response) {
+      var _call = _self._call;
+      var _scope = _self._scope;
+
       _call.selectOptions.length = 0;
+
+      if (_call.nameValue === "facultad") {
+        _scope._selectFacultad.hide();
+      }
+
+      if (_call.nameValue === "programa") {
+        _scope._selectPrograma.hide();
+      }
+
       angular.forEach(response.data.data, function(value, key) {
         _call.selectOptions.push({
           id: value[_call.idValue],
           name: value[_call.nameValue]
         });
       });
-
-      if (_call.nameValue === "facultad") {
-        _scope.loader.facultad = false;
-        _scope.disable.facultad = true;
-      }
-
-      if (_call.nameValue === "programa") {
-        _scope.loader.programa = false;
-        _scope.disable.programa = true;
-      }
     };
 
-    var errorCallback = function(error) {
+    var _error = function(error) {
       console.log(error);
     };
 
     getService
-      .getData(_call.uri, _call.parameters)
-      .then(successCallback, errorCallback);
+      .getData(_self._call.uri, _self._call.parameters)
+      .then(_success, _error);
   };
 
   var selectConstructor = function (names) {
@@ -44,6 +44,29 @@ angular.module('starter.controllers')
         availableOptions: [],
       };
     });
+  };
+
+  $scope._selectFacultad = {
+    show: function() {
+      $scope.loader.facultad = true;
+      $scope.disable.facultad = false;
+      $scope.disable.programa = false;
+    },
+    hide: function() {
+      $scope.loader.facultad = false;
+      $scope.disable.facultad = true;
+    }
+  };
+
+  $scope._selectPrograma = {
+    show: function() {
+      $scope.loader.programa = true;
+      $scope.disable.programa = false;
+    },
+    hide: function() {
+      $scope.loader.programa = false;
+      $scope.disable.programa = true;
+    }
   };
 
   $scope.disable = {
@@ -71,8 +94,7 @@ angular.module('starter.controllers')
   /* Watchers */
   $scope.$watch('[sede.repeatSelect, facultad.repeatSelect, programa.repeatSelect]', function (newValue, oldValue) {
     if (newValue[0] !== oldValue[0]) {
-      $scope.loader.facultad = true;
-      $scope.disable.facultad = false;
+      $scope._selectFacultad.show();
       httpCall({
         uri: "/api_facultades",
         parameters: {sede_id: $scope.sede.repeatSelect},
@@ -84,8 +106,7 @@ angular.module('starter.controllers')
     }
 
     if (newValue[1] !== oldValue[1]) {
-      $scope.loader.programa = true;
-      $scope.disable.programa = false;
+      $scope._selectPrograma.show();
       httpCall({
         uri: "/api_programas",
         parameters: {facultad_id: $scope.facultad.repeatSelect},
