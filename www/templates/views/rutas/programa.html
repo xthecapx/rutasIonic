@@ -16,32 +16,42 @@
               <option ng-repeat="option in sede.availableOptions" value="{{option.id}}">{{option.name}}</option>
             </select>
           </label>
-          <label class="item item-input item-select" ng-class="{disabled:!sede.repeatSelect}">
+          <label
+            class="item item-input item-select"
+            ng-class="{disabled:!disable.facultad}">
             <div class="input-label">
-              Facultad
+              Facultad <ion-spinner icon="spiral" ng-if="loader.facultad"></ion-spinner>
             </div>
-            <select name="facultad" id="facultad" ng-model="facultad.repeatSelect" ng-class="{disabled:!sede.repeatSelect}" ng-disabled="!sede.repeatSelect">
+            <select
+              name="facultad"
+              ng-model="facultad.repeatSelect"
+              id="facultad"
+              ng-class="{disabled:!disable.facultad}"
+              ng-disabled="!disable.facultad">
               <option ng-repeat="option in facultad.availableOptions" value="{{option.id}}">{{option.name}}</option>
             </select>
           </label>
           <label
-            class="item item-input item-select" 
-            ng-class="{disabled:!sede.repeatSelect && !facultad.repeatSelect}">
+            class="item item-input item-select"
+            ng-class="{disabled:!disable.programa}">
             <div class="input-label">
-              Programa
+              Programa <ion-spinner icon="spiral" ng-if="loader.programa"></ion-spinner>
             </div>
             <select
               name="programa"
               id="programa"
               ng-model="programa.repeatSelect"
-              ng-class="{disabled:!sede.repeatSelect && !facultad.repeatSelect}"
-              ng-disabled="!sede.repeatSelect && !facultad.repeatSelect">
+              ng-class="{disabled:!disable.programa}"
+              ng-disabled="!disable.programa">
               <option ng-repeat="option in programa.availableOptions" value="{{option.id}}">{{option.name}}</option>
             </select>
           </label>
         </div>
-        <button class="button button-full button-balanced" ui-sref="app.perfiles({programa_id: programa.repeatSelect})" ng-if="showButton">
-          Ver rutas <span class="icon ion-ios-eye"></span>
+        <button
+          class="button button-full button-balanced"
+          ui-sref="app.perfiles({programa_id: programa.repeatSelect})"
+          ng-if="disable.button">
+          Ver rutas
         </button>
       </div>
     </div>

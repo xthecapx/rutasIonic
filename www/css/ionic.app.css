@@ -9999,3 +9999,8 @@ a.button {
 
 select.disabled, label.disabled {
   background: #D3D3D3; }
+
+.spinner svg {
+  position: absolute;
+  top: 20%;
+  left: 50%; }
