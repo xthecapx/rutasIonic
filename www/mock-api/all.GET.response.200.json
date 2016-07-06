@@ -1,0 +1,104 @@
+[
+  {
+    "url": "/users/1/books/lean-javascript.GET.response.200.json",
+    "res": {
+      "id": 1,
+      "name": "foo",
+      "email": "foo@gmail.com"
+    }
+  },
+  {
+    "url": "/users/1/books.GET.response.200.json",
+    "res": {
+      "id": 1,
+      "name": "foo",
+      "email": "foo@gmail.com"
+    }
+  },
+  {
+    "url": "/users/1/freinds.GET.response.200.json",
+    "res": {
+      "id": 1,
+      "name": "foo",
+      "email": "foo@gmail.com"
+    }
+  },
+  {
+    "url": "/users/1.GET.response.200.json",
+    "res": {
+      "id": 1,
+      "name": "foo",
+      "email": "foo@gmail.com"
+    }
+  },
+  {
+    "url": "/users/1.GET.response.401.json",
+    "res": {
+      "code": 123,
+      "description": "未授权，请登录"
+    }
+  },
+  {
+    "url": "/users/2/books.GET.response.200.json",
+    "res": {
+      "id": 1,
+      "name": "foo",
+      "email": "foo@gmail.com"
+    }
+  },
+  {
+    "url": "/users/2/freinds.GET.response.200.json",
+    "res": {
+      "id": 1,
+      "name": "foo",
+      "email": "foo@gmail.com"
+    }
+  },
+  {
+    "url": "/users/2.GET.response.200.json",
+    "res": {
+      "id": 2,
+      "name": "bar",
+      "email": "bar@gmail.com"
+    }
+  },
+  {
+    "url": "/users.GET.response.200.json",
+    "res": [
+      {
+        "id": 1,
+        "name": "foo",
+        "email": "foo@gmail.com"
+      },
+      {
+        "id": 2,
+        "name": "bar",
+        "email": "bar@gmail.com"
+      }
+    ]
+  },
+  {
+    "url": "/users.POST.request.json",
+    "res": {
+      "name": "hello",
+      "email": "hello@gmail.com"
+    }
+  },
+  {
+    "url": "/users.POST.response.200.json",
+    "res": null
+  },
+  {
+    "url": "/users.POST.response.422.json",
+    "res": {
+      "code": 1234,
+      "description": "邮箱格式不正确"
+    }
+  },
+  {
+    "url": "/users.PUT.response.200.json",
+    "res": {
+      "name": "iamnewname"
+    }
+  }
+]

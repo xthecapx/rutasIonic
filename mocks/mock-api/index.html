@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>api</title>
+  <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body ng-controller="AppController as vm">
+  <div class="container" style="width: 1300px; margin: auto">
+    <div class="row" style="100%">
+      <div class="col-md-5">
+        <div class=" affix" style="height: 100%; overflow: auto; padding-top: 20px; width: 505px;">
+          <h4 id="title">All Apis <small>(点击url查看详情)</small></h4>
+          <ul class="list-group">
+            <li class="list-group-item" ng-repeat="api in vm.apis">
+              <a href="#title-{{$index}}">{{api.url}}</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="col-md-7" style="padding-top: 20px;">
+        <h4 id="title">Details</h4>
+        <div id="title-{{$index}}" class="panel panel-default" ng-repeat="api in vm.apis">
+          <div class="panel-heading">
+            {{api.url}}
+          </div>
+          <div class="panel-body">
+            <pre style="background: none; border: none;">{{api.res | json}}</pre>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <script src="//cdn.bootcss.com/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.js"></script>
+  <script src="//cdn.bootcss.com/angular.js/1.5.0-beta.1/angular.min.js"></script>
+  <script src="//cdn.bootcss.com/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+
+  <script type="text/javascript">
+    angular
+      .module('app', [
+        'ui.router'
+      ])
+      .controller('AppController', function($http) {
+        var vm = this;
+        $http.get('/mock-api/all').then(function(data) {
+          vm.apis = data.data;
+        });
+      });
+
+    angular.bootstrap(document, ['app']);
+  </script>
+</body>
+
+</html>

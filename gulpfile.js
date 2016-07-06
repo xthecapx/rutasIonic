@@ -6,6 +6,9 @@ var sass = require('gulp-sass');
 var minifyCss = require('gulp-clean-css');
 var rename = require('gulp-rename');
 var sh = require('shelljs');
+var opn = require('opn');
+var mock = require('n-mock');
+var browserSync = require('browser-sync').create();
 
 var paths = {
   sass: ['./scss/**/*.scss']
@@ -48,4 +51,24 @@ gulp.task('git-check', function(done) {
     process.exit(1);
   }
   done();
+});
+
+gulp.task('default', ['serve']);
+
+gulp.task('server', function() {
+  browserSync.init({
+    port: 3000,
+    server: {
+      baseDir: './'
+    },
+    middleware: [
+      mock(__dirname + '/mocks')
+    ]
+  });
+});
+
+gulp.task('serve', ['server'], function() {
+  console.info(__dirname + '/mocks');
+  opn('http://localhost:3000', 'Google Chrome');
+
 });

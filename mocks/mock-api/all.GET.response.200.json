@@ -1,0 +1,214 @@
+[
+  {
+    "url": "\\api_facultades\\1.GET.response.200.json",
+    "res": {
+      "status": 200,
+      "error": null,
+      "success": true,
+      "message": "200 OK",
+      "data": [
+        {
+          "facultad_id": "3064",
+          "facultad": "Arquitectura",
+          "perfiles": [
+            {
+              "id": "51",
+              "programa_id": "3306431",
+              "perfil": "Arquitectura Bioclimática",
+              "total_creditos": "20",
+              "descripcion": "Descripción pendiente"
+            },
+            {
+              "id": "52",
+              "programa_id": "3306431",
+              "perfil": "Arquitectura de la Vivienda",
+              "total_creditos": "20",
+              "descripcion": "Descripción pendiente"
+            },
+            {
+              "id": "53",
+              "programa_id": "3306431",
+              "perfil": "Historia y Teoría",
+              "total_creditos": "20",
+              "descripcion": "Descripción pendiente"
+            },
+            {
+              "id": "54",
+              "programa_id": "3306431",
+              "perfil": "Proyectación Urbanística ",
+              "total_creditos": "20",
+              "descripcion": "Descripción pendiente"
+            },
+            {
+              "id": "55",
+              "programa_id": "3306431",
+              "perfil": "Proyecto en la Arquitectura Moderna",
+              "total_creditos": "20",
+              "descripcion": "Descripción pendiente"
+            }
+          ]
+        },
+        {
+          "facultad_id": "3068",
+          "facultad": "Minas",
+          "perfiles": [
+            {
+              "id": "70",
+              "programa_id": "3306814",
+              "perfil": "Aguas",
+              "total_creditos": "39",
+              "descripcion": "Descripción pendiente"
+            },
+            {
+              "id": "71",
+              "programa_id": "3306814",
+              "perfil": "Estructuras",
+              "total_creditos": "17",
+              "descripcion": "Descripción pendiente"
+            },
+            {
+              "id": "72",
+              "programa_id": "3306814",
+              "perfil": "Geotecnia",
+              "total_creditos": "26",
+              "descripcion": "Descripción pendiente"
+            },
+            {
+              "id": "73",
+              "programa_id": "3306814",
+              "perfil": "Geotecnia",
+              "total_creditos": "27",
+              "descripcion": "Descripción pendiente"
+            },
+            {
+              "id": "74",
+              "programa_id": "3306814",
+              "perfil": "Vías y Transporte",
+              "total_creditos": "17",
+              "descripcion": "Descripción pendiente"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "\\api_sedes.GET.response.200.json",
+    "res": {
+      "status": 200,
+      "error": null,
+      "success": true,
+      "message": "200 OK",
+      "data": [
+        {
+          "sede_id": "2",
+          "sede": "Bogotá",
+          "perfiles": [
+            {
+              "id": "27",
+              "programa_id": "220503",
+              "perfil": "Modelos matemáticos",
+              "total_creditos": "8",
+              "descripcion": "Descripción pendiente"
+            }
+          ]
+        },
+        {
+          "sede_id": "3",
+          "sede": "Medellín",
+          "perfiles": [
+            {
+              "id": "51",
+              "programa_id": "3306431",
+              "perfil": "Arquitectura Bioclimática",
+              "total_creditos": "20",
+              "descripcion": "Descripción pendiente"
+            },
+            {
+              "id": "52",
+              "programa_id": "3306431",
+              "perfil": "Arquitectura de la Vivienda",
+              "total_creditos": "20",
+              "descripcion": "Descripción pendiente"
+            },
+            {
+              "id": "53",
+              "programa_id": "3306431",
+              "perfil": "Historia y Teoría",
+              "total_creditos": "20",
+              "descripcion": "Descripción pendiente"
+            },
+            {
+              "id": "54",
+              "programa_id": "3306431",
+              "perfil": "Proyectación Urbanística ",
+              "total_creditos": "20",
+              "descripcion": "Descripción pendiente"
+            },
+            {
+              "id": "55",
+              "programa_id": "3306431",
+              "perfil": "Proyecto en la Arquitectura Moderna",
+              "total_creditos": "20",
+              "descripcion": "Descripción pendiente"
+            }
+          ]
+        },
+        {
+          "sede_id": "4",
+          "sede": "Manizales",
+          "perfiles": [
+            {
+              "id": "113",
+              "programa_id": "440373",
+              "perfil": "Algebra y Lógica",
+              "total_creditos": "12",
+              "descripcion": "Descripción pendiente"
+            },
+            {
+              "id": "116",
+              "programa_id": "440373",
+              "perfil": "Estadística",
+              "total_creditos": "4",
+              "descripcion": "Descripción pendiente"
+            },
+            {
+              "id": "117",
+              "programa_id": "440373",
+              "perfil": "Geometría diferencial",
+              "total_creditos": "8",
+              "descripcion": "Descripción pendiente"
+            },
+            {
+              "id": "120",
+              "programa_id": "440373",
+              "perfil": "Modelos matemáticos",
+              "total_creditos": "8",
+              "descripcion": "Descripción pendiente"
+            }
+          ]
+        },
+        {
+          "sede_id": "5",
+          "sede": "Palmira",
+          "perfiles": [
+            {
+              "id": "5",
+              "programa_id": "551374",
+              "perfil": "Ambiental",
+              "total_creditos": "3",
+              "descripcion": "Descripción pendiente"
+            },
+            {
+              "id": "6",
+              "programa_id": "551374",
+              "perfil": "Economía",
+              "total_creditos": "8",
+              "descripcion": "Descripción pendiente"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
