@@ -1,6 +1,422 @@
 [
   {
-    "url": "\\api_facultades\\1.GET.response.200.json",
+    "url": "\\api_asignatura_rutas.GET.response.200.json",
+    "res": {
+      "status": 200,
+      "error": null,
+      "success": true,
+      "message": "200 OK",
+      "data": [
+        {
+          "id": "239",
+          "asignatura_id": "218",
+          "perfile_id": "56",
+          "asignatura": {
+            "id": "218",
+            "asignatura_id": "3009101C",
+            "asignatura": "Residencia en obra",
+            "creditos": "3",
+            "tipologia": "C",
+            "descripcion": "",
+            "agrupacion": "Optativas componente profesional",
+            "requisitos": [
+              {
+                "id": "91",
+                "requisito": "Costos y Presupuestos I"
+              }
+            ]
+          },
+          "perfile": {
+            "id": "56",
+            "programa_id": "3306461",
+            "perfil": "Gestión de la Construcción",
+            "total_creditos": "47",
+            "descripcion": "Descripción pendiente"
+          }
+        },
+        {
+          "id": "240",
+          "asignatura_id": "219",
+          "perfile_id": "56",
+          "asignatura": {
+            "id": "219",
+            "asignatura_id": "3009054C",
+            "asignatura": "Programación de obras ii",
+            "creditos": "3",
+            "tipologia": "C",
+            "descripcion": "",
+            "agrupacion": "Optativas componente profesional",
+            "requisitos": [
+              {
+                "id": "92",
+                "requisito": "Programación de Obras I"
+              }
+            ]
+          },
+          "perfile": {
+            "id": "56",
+            "programa_id": "3306461",
+            "perfil": "Gestión de la Construcción",
+            "total_creditos": "47",
+            "descripcion": "Descripción pendiente"
+          }
+        },
+        {
+          "id": "241",
+          "asignatura_id": "220",
+          "perfile_id": "56",
+          "asignatura": {
+            "id": "220",
+            "asignatura_id": "3009053C",
+            "asignatura": "Planes de negocios",
+            "creditos": "3",
+            "tipologia": "C",
+            "descripcion": "",
+            "agrupacion": "Optativas componente profesional",
+            "requisitos": [
+              {
+                "id": "1",
+                "requisito": "NO"
+              }
+            ]
+          },
+          "perfile": {
+            "id": "56",
+            "programa_id": "3306461",
+            "perfil": "Gestión de la Construcción",
+            "total_creditos": "47",
+            "descripcion": "Descripción pendiente"
+          }
+        },
+        {
+          "id": "242",
+          "asignatura_id": "221",
+          "perfile_id": "56",
+          "asignatura": {
+            "id": "221",
+            "asignatura_id": "3009046C",
+            "asignatura": "Legislación ambiental -cnt-",
+            "creditos": "3",
+            "tipologia": "C",
+            "descripcion": "",
+            "agrupacion": "Optativas componente profesional",
+            "requisitos": [
+              {
+                "id": "1",
+                "requisito": "NO"
+              }
+            ]
+          },
+          "perfile": {
+            "id": "56",
+            "programa_id": "3306461",
+            "perfil": "Gestión de la Construcción",
+            "total_creditos": "47",
+            "descripcion": "Descripción pendiente"
+          }
+        },
+        {
+          "id": "243",
+          "asignatura_id": "222",
+          "perfile_id": "56",
+          "asignatura": {
+            "id": "222",
+            "asignatura_id": "3009045C",
+            "asignatura": "Interventoría",
+            "creditos": "3",
+            "tipologia": "C",
+            "descripcion": "",
+            "agrupacion": "Optativas componente profesional",
+            "requisitos": [
+              {
+                "id": "93",
+                "requisito": "Construcción V"
+              }
+            ]
+          },
+          "perfile": {
+            "id": "56",
+            "programa_id": "3306461",
+            "perfil": "Gestión de la Construcción",
+            "total_creditos": "47",
+            "descripcion": "Descripción pendiente"
+          }
+        },
+        {
+          "id": "244",
+          "asignatura_id": "223",
+          "perfile_id": "56",
+          "asignatura": {
+            "id": "223",
+            "asignatura_id": "3009044C",
+            "asignatura": "Gestión integrada de proyectos ii",
+            "creditos": "3",
+            "tipologia": "C",
+            "descripcion": "",
+            "agrupacion": "Optativas componente profesional",
+            "requisitos": [
+              {
+                "id": "94",
+                "requisito": "Gestión Integrada de Proyectos I"
+              }
+            ]
+          },
+          "perfile": {
+            "id": "56",
+            "programa_id": "3306461",
+            "perfil": "Gestión de la Construcción",
+            "total_creditos": "47",
+            "descripcion": "Descripción pendiente"
+          }
+        },
+        {
+          "id": "245",
+          "asignatura_id": "224",
+          "perfile_id": "56",
+          "asignatura": {
+            "id": "224",
+            "asignatura_id": "3009043C",
+            "asignatura": "Gerencia de proyectos inmobiliarios",
+            "creditos": "3",
+            "tipologia": "C",
+            "descripcion": "",
+            "agrupacion": "Optativas componente profesional",
+            "requisitos": [
+              {
+                "id": "91",
+                "requisito": "Costos y Presupuestos I"
+              }
+            ]
+          },
+          "perfile": {
+            "id": "56",
+            "programa_id": "3306461",
+            "perfil": "Gestión de la Construcción",
+            "total_creditos": "47",
+            "descripcion": "Descripción pendiente"
+          }
+        },
+        {
+          "id": "246",
+          "asignatura_id": "225",
+          "perfile_id": "56",
+          "asignatura": {
+            "id": "225",
+            "asignatura_id": "3009042C",
+            "asignatura": "Costos y presupuestos ii",
+            "creditos": "3",
+            "tipologia": "C",
+            "descripcion": "",
+            "agrupacion": "Optativas componente profesional",
+            "requisitos": [
+              {
+                "id": "91",
+                "requisito": "Costos y Presupuestos I"
+              }
+            ]
+          },
+          "perfile": {
+            "id": "56",
+            "programa_id": "3306461",
+            "perfil": "Gestión de la Construcción",
+            "total_creditos": "47",
+            "descripcion": "Descripción pendiente"
+          }
+        },
+        {
+          "id": "247",
+          "asignatura_id": "226",
+          "perfile_id": "56",
+          "asignatura": {
+            "id": "226",
+            "asignatura_id": "3009041C",
+            "asignatura": "Controles de programación",
+            "creditos": "3",
+            "tipologia": "C",
+            "descripcion": "",
+            "agrupacion": "Optativas componente profesional",
+            "requisitos": [
+              {
+                "id": "92",
+                "requisito": "Programación de Obras I"
+              }
+            ]
+          },
+          "perfile": {
+            "id": "56",
+            "programa_id": "3306461",
+            "perfil": "Gestión de la Construcción",
+            "total_creditos": "47",
+            "descripcion": "Descripción pendiente"
+          }
+        },
+        {
+          "id": "248",
+          "asignatura_id": "227",
+          "perfile_id": "56",
+          "asignatura": {
+            "id": "227",
+            "asignatura_id": "3009040C",
+            "asignatura": "Controles de obra ii",
+            "creditos": "3",
+            "tipologia": "C",
+            "descripcion": "",
+            "agrupacion": "Optativas componente profesional",
+            "requisitos": [
+              {
+                "id": "95",
+                "requisito": "Controles de Obra I"
+              }
+            ]
+          },
+          "perfile": {
+            "id": "56",
+            "programa_id": "3306461",
+            "perfil": "Gestión de la Construcción",
+            "total_creditos": "47",
+            "descripcion": "Descripción pendiente"
+          }
+        },
+        {
+          "id": "249",
+          "asignatura_id": "228",
+          "perfile_id": "56",
+          "asignatura": {
+            "id": "228",
+            "asignatura_id": "3009039C",
+            "asignatura": "Control de costos",
+            "creditos": "3",
+            "tipologia": "C",
+            "descripcion": "",
+            "agrupacion": "Optativas componente profesional",
+            "requisitos": [
+              {
+                "id": "91",
+                "requisito": "Costos y Presupuestos I"
+              }
+            ]
+          },
+          "perfile": {
+            "id": "56",
+            "programa_id": "3306461",
+            "perfil": "Gestión de la Construcción",
+            "total_creditos": "47",
+            "descripcion": "Descripción pendiente"
+          }
+        },
+        {
+          "id": "250",
+          "asignatura_id": "229",
+          "perfile_id": "56",
+          "asignatura": {
+            "id": "229",
+            "asignatura_id": "3009010C",
+            "asignatura": "Contratación",
+            "creditos": "3",
+            "tipologia": "C",
+            "descripcion": "",
+            "agrupacion": "Optativas componente profesional",
+            "requisitos": [
+              {
+                "id": "96",
+                "requisito": "Legislación Laboral y Pública"
+              }
+            ]
+          },
+          "perfile": {
+            "id": "56",
+            "programa_id": "3306461",
+            "perfil": "Gestión de la Construcción",
+            "total_creditos": "47",
+            "descripcion": "Descripción pendiente"
+          }
+        },
+        {
+          "id": "251",
+          "asignatura_id": "230",
+          "perfile_id": "56",
+          "asignatura": {
+            "id": "230",
+            "asignatura_id": "3007283C",
+            "asignatura": "Contabilidad de costos",
+            "creditos": "4",
+            "tipologia": "C",
+            "descripcion": "",
+            "agrupacion": "Optativas componente profesional",
+            "requisitos": [
+              {
+                "id": "1",
+                "requisito": "NO"
+              }
+            ]
+          },
+          "perfile": {
+            "id": "56",
+            "programa_id": "3306461",
+            "perfil": "Gestión de la Construcción",
+            "total_creditos": "47",
+            "descripcion": "Descripción pendiente"
+          }
+        },
+        {
+          "id": "252",
+          "asignatura_id": "231",
+          "perfile_id": "56",
+          "asignatura": {
+            "id": "231",
+            "asignatura_id": "3007202C",
+            "asignatura": "Fundamentos de economía",
+            "creditos": "3",
+            "tipologia": "C",
+            "descripcion": "",
+            "agrupacion": "Optativas componente profesional",
+            "requisitos": [
+              {
+                "id": "1",
+                "requisito": "NO"
+              }
+            ]
+          },
+          "perfile": {
+            "id": "56",
+            "programa_id": "3306461",
+            "perfil": "Gestión de la Construcción",
+            "total_creditos": "47",
+            "descripcion": "Descripción pendiente"
+          }
+        },
+        {
+          "id": "253",
+          "asignatura_id": "232",
+          "perfile_id": "56",
+          "asignatura": {
+            "id": "232",
+            "asignatura_id": "3006914C",
+            "asignatura": "Estadística i",
+            "creditos": "4",
+            "tipologia": "C",
+            "descripcion": "",
+            "agrupacion": "Optativas componente profesional",
+            "requisitos": [
+              {
+                "id": "1",
+                "requisito": "NO"
+              }
+            ]
+          },
+          "perfile": {
+            "id": "56",
+            "programa_id": "3306461",
+            "perfil": "Gestión de la Construcción",
+            "total_creditos": "47",
+            "descripcion": "Descripción pendiente"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "url": "\\api_facultades.GET.response.200.json",
     "res": {
       "status": 200,
       "error": null,
@@ -85,6 +501,257 @@
               "programa_id": "3306814",
               "perfil": "Vías y Transporte",
               "total_creditos": "17",
+              "descripcion": "Descripción pendiente"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "\\api_perfiles.GET.response.200.json",
+    "res": {
+      "status": 200,
+      "error": null,
+      "success": true,
+      "message": "200 OK",
+      "data": [
+        {
+          "id": "56",
+          "programa_id": "3306461",
+          "perfil": "Gestión de la Construcción",
+          "total_creditos": "47",
+          "descripcion": "Descripción pendiente",
+          "asignaturaPerfiles": [
+            {
+              "id": "239",
+              "asignatura_id": "218",
+              "perfile_id": "56"
+            },
+            {
+              "id": "240",
+              "asignatura_id": "219",
+              "perfile_id": "56"
+            },
+            {
+              "id": "241",
+              "asignatura_id": "220",
+              "perfile_id": "56"
+            },
+            {
+              "id": "242",
+              "asignatura_id": "221",
+              "perfile_id": "56"
+            },
+            {
+              "id": "243",
+              "asignatura_id": "222",
+              "perfile_id": "56"
+            },
+            {
+              "id": "244",
+              "asignatura_id": "223",
+              "perfile_id": "56"
+            },
+            {
+              "id": "245",
+              "asignatura_id": "224",
+              "perfile_id": "56"
+            },
+            {
+              "id": "246",
+              "asignatura_id": "225",
+              "perfile_id": "56"
+            },
+            {
+              "id": "247",
+              "asignatura_id": "226",
+              "perfile_id": "56"
+            },
+            {
+              "id": "248",
+              "asignatura_id": "227",
+              "perfile_id": "56"
+            },
+            {
+              "id": "249",
+              "asignatura_id": "228",
+              "perfile_id": "56"
+            },
+            {
+              "id": "250",
+              "asignatura_id": "229",
+              "perfile_id": "56"
+            },
+            {
+              "id": "251",
+              "asignatura_id": "230",
+              "perfile_id": "56"
+            },
+            {
+              "id": "252",
+              "asignatura_id": "231",
+              "perfile_id": "56"
+            },
+            {
+              "id": "253",
+              "asignatura_id": "232",
+              "perfile_id": "56"
+            }
+          ],
+          "programa": {
+            "id": "3306461",
+            "sede_id": "3",
+            "sede": "Medellín",
+            "facultad_id": "3064",
+            "facultad": "Arquitectura",
+            "programa_id": "61",
+            "programa": "Construcción"
+          }
+        },
+        {
+          "id": "57",
+          "programa_id": "3306461",
+          "perfil": "Materiales de Construcción",
+          "total_creditos": "9",
+          "descripcion": "Descripción pendiente",
+          "asignaturaPerfiles": [
+            {
+              "id": "254",
+              "asignatura_id": "233",
+              "perfile_id": "57"
+            },
+            {
+              "id": "255",
+              "asignatura_id": "234",
+              "perfile_id": "57"
+            },
+            {
+              "id": "256",
+              "asignatura_id": "235",
+              "perfile_id": "57"
+            }
+          ],
+          "programa": {
+            "id": "3306461",
+            "sede_id": "3",
+            "sede": "Medellín",
+            "facultad_id": "3064",
+            "facultad": "Arquitectura",
+            "programa_id": "61",
+            "programa": "Construcción"
+          }
+        },
+        {
+          "id": "58",
+          "programa_id": "3306461",
+          "perfil": "Patología prevención, mantenimiento y restauración de edificaciones",
+          "total_creditos": "9",
+          "descripcion": "Descripción pendiente",
+          "asignaturaPerfiles": [
+            {
+              "id": "257",
+              "asignatura_id": "236",
+              "perfile_id": "58"
+            },
+            {
+              "id": "258",
+              "asignatura_id": "237",
+              "perfile_id": "58"
+            },
+            {
+              "id": "259",
+              "asignatura_id": "238",
+              "perfile_id": "58"
+            }
+          ],
+          "programa": {
+            "id": "3306461",
+            "sede_id": "3",
+            "sede": "Medellín",
+            "facultad_id": "3064",
+            "facultad": "Arquitectura",
+            "programa_id": "61",
+            "programa": "Construcción"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "url": "\\api_programas.GET.response.200.json",
+    "res": {
+      "status": 200,
+      "error": null,
+      "success": true,
+      "message": "200 OK",
+      "data": [
+        {
+          "id": "3306431",
+          "programa_id": "31",
+          "programa": "Arquitectura",
+          "perfiles": [
+            {
+              "id": "51",
+              "programa_id": "3306431",
+              "perfil": "Arquitectura Bioclimática",
+              "total_creditos": "20",
+              "descripcion": "Descripción pendiente"
+            },
+            {
+              "id": "52",
+              "programa_id": "3306431",
+              "perfil": "Arquitectura de la Vivienda",
+              "total_creditos": "20",
+              "descripcion": "Descripción pendiente"
+            },
+            {
+              "id": "53",
+              "programa_id": "3306431",
+              "perfil": "Historia y Teoría",
+              "total_creditos": "20",
+              "descripcion": "Descripción pendiente"
+            },
+            {
+              "id": "54",
+              "programa_id": "3306431",
+              "perfil": "Proyectación Urbanística ",
+              "total_creditos": "20",
+              "descripcion": "Descripción pendiente"
+            },
+            {
+              "id": "55",
+              "programa_id": "3306431",
+              "perfil": "Proyecto en la Arquitectura Moderna",
+              "total_creditos": "20",
+              "descripcion": "Descripción pendiente"
+            }
+          ]
+        },
+        {
+          "id": "3306461",
+          "programa_id": "61",
+          "programa": "Construcción",
+          "perfiles": [
+            {
+              "id": "56",
+              "programa_id": "3306461",
+              "perfil": "Gestión de la Construcción",
+              "total_creditos": "47",
+              "descripcion": "Descripción pendiente"
+            },
+            {
+              "id": "57",
+              "programa_id": "3306461",
+              "perfil": "Materiales de Construcción",
+              "total_creditos": "9",
+              "descripcion": "Descripción pendiente"
+            },
+            {
+              "id": "58",
+              "programa_id": "3306461",
+              "perfil": "Patología prevención, mantenimiento y restauración de edificaciones",
+              "total_creditos": "9",
               "descripcion": "Descripción pendiente"
             }
           ]

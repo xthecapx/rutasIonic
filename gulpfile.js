@@ -57,7 +57,7 @@ gulp.task('default', ['serve']);
 
 gulp.task('server', function() {
   browserSync.init({
-    port: 3000,
+    port: 4000,
     server: {
       baseDir: './'
     },
@@ -69,6 +69,6 @@ gulp.task('server', function() {
 
 gulp.task('serve', ['server'], function() {
   console.info(__dirname + '/mocks');
-  opn('http://localhost:3000', 'Google Chrome');
+  opn('http://localhost:4000', 'Google Chrome');
 
 });

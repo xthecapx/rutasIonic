@@ -59,6 +59,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives']
         controller: 'AsignaturasController'
       }
     }
+  })
+
+  .state('app.doble_titulacion', {
+    url: '/doble_titulacion',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/views/doble_titulacion/doble_titulacion.html',
+        controller: 'DobleTitulacionController'
+      }
+    }
   });
 
   // if none of the above states are matched, use this as the fallback

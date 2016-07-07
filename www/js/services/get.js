@@ -9,4 +9,12 @@ angular.module('starter.controllers')
       params: parameters
     });
   };
+
+  this.postData = function(uri, parameters) {
+    return $http({
+      url:  ApiEndpoint.url + uri,
+      method: "POST",
+      params: parameters
+    });
+  };
 }]);

@@ -6,7 +6,7 @@ angular.module('starter.directives', [])
      scope: true,
      link: function (scope, element, attrs) {
 
-       var tip = $compile('<div ng-class="tipClass">{{ text }}<div class="tooltip-arrow"></div></div>')(scope),
+       var tip = $compile('<div ng-class="tipClass"><p>{{text}}</p><div class="tooltip-arrow"></div></div>')(scope),
            tipClassName = 'tooltip',
            tipActiveClassName = 'tooltip-show';
 
@@ -23,7 +23,7 @@ angular.module('starter.directives', [])
        $document.find('.tooltip-parent').append(tip);
 
        element.bind('click', function (e) {
-         tip.addClass(tipActiveClassName);
+         tip.toggleClass(tipActiveClassName);
 
          var pos = e.target.getBoundingClientRect(),
              offset = tip.offset(),
@@ -58,7 +58,7 @@ angular.module('starter.directives', [])
        });
 
        tip.bind('click', function () {
-         tip.removeClass(tipActiveClassName);
+         tip.toggleClass(tipActiveClassName);
        });
      }
    }

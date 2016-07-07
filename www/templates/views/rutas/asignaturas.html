@@ -1,29 +1,34 @@
 <ion-view class="asignaturas" view-title="{{perfilName}}">
   <ion-content>
-    <div class="list flipper" ng-repeat="item in asignaturas" ng-click="flipper($event);">
+    <div class="list flipper" ng-repeat="item in asignaturas">
         <div class="card front-card">
           <div class="item item-divider item-text-wrap">
             {{item.asignatura.asignatura}}
           </div>
 
-          <div class="list item item-text-wrap">
-            <div class="item row">
+          <div class="list item-text-wrap">
+            <div class="row">
               <div class="col">Codigo</div>
-              <div class="col col-67">{{item.asignatura.asignatura_id}}</div>
+              <div class="col col-70">{{item.asignatura.asignatura_id}}</div>
             </div>
-            <div class="item row">
+            <div class="row">
               <div class="col">Agrupación</div>
-              <div class="col col-67">{{item.asignatura.agrupacion}}</div>
+              <div class="col col-70">{{item.asignatura.agrupacion}}</div>
             </div>
-            <div class="item row">
+            <div class="row">
               <div class="col">Créditos</div>
-              <div class="col col-67">{{item.asignatura.creditos}}</div>
+              <div class="col col-70">{{item.asignatura.creditos}}</div>
             </div>
-            <div class="item row">
+            <div class="row">
               <div class="col">Tipologia</div>
-              <div class="col col-67">{{item.asignatura.tipologia}}</div>
+              <div class="col col-70">{{item.asignatura.tipologia}}</div>
             </div>
     			</div>
+
+          <div class="item item-divider footer"  ng-click="flipper($event);">
+            <span class="ion ion-forward"></span> Ver requisitos
+          </div>
+
         </div>
 
         <div class="card back-card">
@@ -31,12 +36,20 @@
             {{item.asignatura.asignatura}}
           </div>
 
-          <div class="item item-text-wrap Requisitos">
-    					<strong>Requisitos</strong>
-    					<ol ng-repeat="item in item.asignatura.requisitos">
-    					  <li><span>{{item.requisito}}</span></li>
+          <div class="list item-text-wrap Requisitos">
+            <div class="row">
+              <strong>Requisitos</strong>
+            </div>
+            <div class="row">
+              <ol ng-repeat="item in item.asignatura.requisitos">
+    					  <li><span class="ion ion-arrow-right-b"></span> {{item.requisito}}</li>
     					</ol>
+            </div>
     			</div>
+
+          <div class="item item-divider footer"  ng-click="flipper($event);">
+            <span class="ion ion-arrow-return-left"></span> Volver
+          </div>
         </div>
     </div>
   </ion-content>

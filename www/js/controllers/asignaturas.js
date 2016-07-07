@@ -12,7 +12,7 @@ angular.module('starter.controllers')
     });
 
   $scope.flipper = function($event) {
-    var $element = angular.element($event.currentTarget);
+    var $element = angular.element($event.currentTarget).closest('.flipper');
     $element.toggleClass('flip');
   };
 

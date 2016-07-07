@@ -1,15 +1,17 @@
 <ion-view view-title="Perfiles">
   <ion-content>
       <div class="list card" ng-repeat="item in perfiles">
-        <div ui-sref="app.asignaturas({perfil_id: item.id, perfil_name:item.perfil})">
-          <div class="item item-divider">
-            {{item.perfil}}
-          </div>
+        <div class="item item-divider">
+          {{item.perfil}}
+        </div>
 
-          <div class="item item-text-wrap">
-            <p><strong>Creditos:</strong> {{item.total_creditos}}</p>
-            <p><strong>Descripción:</strong> {{item.descripcion}}</p>
-          </div>
+        <div class="item item-text-wrap">
+          <p><strong>Creditos:</strong> {{item.total_creditos}}</p>
+          <p><strong>Descripción:</strong> {{item.descripcion}}</p>
+        </div>
+
+        <div class="item item-divider footer" ui-sref="app.asignaturas({perfil_id: item.id, perfil_name:item.perfil})">
+          <span class="ion ion-chevron-right"></span> Ver asignaturas
         </div>
       </div>
   </ion-content>

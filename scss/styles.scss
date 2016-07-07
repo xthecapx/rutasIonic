@@ -5,6 +5,13 @@ $blue-light: #F8FFFF;
 .card {
   margin: 0 auto;
   width: 95%;
+
+  .footer {
+    background-color: white;
+    color: #009638;
+    font-size: 14px;
+    font-weight: bold;
+  }
 }
 
 .list {
@@ -44,17 +51,9 @@ $blue-light: #F8FFFF;
     font-weight: bold;
   }
 
-  ol {
-    font-weight:bolder;
-    list-style-type: upper-roman;
-    padding: inherit;
-    padding-top: 5px;
-    padding-bottom: 5px;
-
+  .card {
     li {
-      span {
-        font-weight: normal;
-      }
+      padding: 5px 15px;
     }
   }
 }
@@ -139,6 +138,11 @@ $blue-light: #F8FFFF;
 .info {
   position: relative;
   text-align: center;
+
+  .heading {
+    text-align: right;
+    font-size: 1em;
+  }
 }
 
 .message {
@@ -158,7 +162,7 @@ $blue-light: #F8FFFF;
   display: none;
   position: absolute;
   background-color: #222;
-  padding: 7px 10px;
+  padding: 2px 10px;
   max-width: 500px;
   width: 80%;
   color: #fff;
