@@ -1,8 +1,9 @@
 angular.module('starter.controllers')
-.service('getService', ['$http', 'ApiEndpoint', function($http, ApiEndpoint) {
-  var urlSedes = ApiEndpoint.url + "/api_sedes";
+.service('getService', ['$http', 'ApiEndpoint', 'AuthenticationService', function($http, ApiEndpoint, user) {
 
   this.getData = function(uri, parameters) {
+    $http.defaults.headers.common.Authorization = 'Bearer ' + user.getUser().token;
+
     return $http({
       url:  ApiEndpoint.url + uri,
       method: "GET",

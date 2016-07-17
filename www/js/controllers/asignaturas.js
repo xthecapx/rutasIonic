@@ -6,7 +6,7 @@ angular.module('starter.controllers')
   $scope.flippedCard = true;
 
   getService
-    .getData("/api_asignatura_rutas", {perfile_id: $scope.perfil_id})
+    .getData("/rutas/api_asignatura_rutas", {perfile_id: $scope.perfil_id})
     .success(function(response) {
       $scope.asignaturas = response.data;
     });

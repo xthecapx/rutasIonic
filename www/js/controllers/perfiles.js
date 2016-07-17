@@ -5,7 +5,7 @@ angular.module('starter.controllers')
   $scope.loading = true;
 
   getService
-    .getData("/api_perfiles", {programa_id: $scope.programa_id})
+    .getData("/rutas/api_perfiles", {programa_id: $scope.programa_id})
     .success(function(response) {
       $scope.loading = false;
       $scope.perfiles = response.data;

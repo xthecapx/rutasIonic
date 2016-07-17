@@ -1,5 +1,5 @@
 angular.module('starter.controllers')
 
-.controller('HomeController', ['$scope', '$http', function($scope, $http) {
-
+.controller('HomeController', ['$scope', '$ionicHistory', function($scope, $ionicHistory) {
+  $ionicHistory.clearHistory();
 }]);

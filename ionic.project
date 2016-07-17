@@ -4,7 +4,7 @@
   "proxies": [
     {
       "path": "/api",
-      "proxyUrl": "http://retalapp.com/rutas/rutas"
+      "proxyUrl": "http://retalapp.com/rutas"
     }
   ],
   "gulpStartupTasks": [

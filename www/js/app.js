@@ -3,7 +3,7 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives'])
+angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives', 'starter.services'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -23,7 +23,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives']
 
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
-
   .state('app', {
     url: '/app',
     abstract: true,
@@ -61,6 +60,25 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives']
     }
   })
 
+  .state('app.home', {
+    url: '/home',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/views/home.html',
+        controller: 'HomeController'
+      }
+    }
+  })
+
+  .state('app.logout', {
+    url: '/logout',
+    onEnter: ['AuthenticationService', 'LoginController', function(AuthenticationService, LoginController) {
+      debugger;
+      var savedUser = JSON.parse(localStorage.getItem('user'));
+      AuthenticationService.logout(savedUser);
+    }]
+  })
+
   .state('app.doble_titulacion', {
     url: '/doble_titulacion',
     views: {
@@ -72,5 +90,5 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives']
   });
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/rutas');
+  $urlRouterProvider.otherwise('/app/home');
 });

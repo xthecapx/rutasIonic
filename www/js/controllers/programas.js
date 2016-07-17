@@ -84,7 +84,7 @@ angular.module('starter.controllers')
   selectConstructor(["sede", "facultad", "programa"]);
 
   httpCall({
-    uri: "/api_sedes",
+    uri: "/rutas/api_sedes",
     parameters: null,
     selectOptions: $scope.sede.availableOptions,
     idValue: "sede_id",
@@ -96,7 +96,7 @@ angular.module('starter.controllers')
     if (newValue[0] !== oldValue[0]) {
       $scope._selectFacultad.show();
       httpCall({
-        uri: "/api_facultades",
+        uri: "/rutas/api_facultades",
         parameters: {sede_id: $scope.sede.repeatSelect},
         selectOptions: $scope.facultad.availableOptions,
         idValue: "facultad_id",
@@ -108,7 +108,7 @@ angular.module('starter.controllers')
     if (newValue[1] !== oldValue[1]) {
       $scope._selectPrograma.show();
       httpCall({
-        uri: "/api_programas",
+        uri: "/rutas/api_programas",
         parameters: {facultad_id: $scope.facultad.repeatSelect},
         selectOptions: $scope.programa.availableOptions,
         idValue: "id",
