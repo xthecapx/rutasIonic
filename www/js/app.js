@@ -60,8 +60,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives',
     }
   })
 
-  .state('app.home', {
-    url: '/home',
+  .state('app.login', {
+    url: '/login',
     onEnter: ['ModalService', 'AuthenticationService', '$rootScope', '$state', function(ModalService, auth, $rootScope, $state) {
       ModalService
         .init('templates/commons/login.html')
@@ -69,8 +69,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives',
           if (!auth.getUser()) {
             modal.show();
           } else {
-            $rootScope.$broadcast('destroy-modal');
-            $state.go('app.rutas', {}, {reload: true, inherit: false});
+            auth.loginConfirmed();
           }
         });
     }]
@@ -78,9 +77,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives',
 
   .state('app.logout', {
     url: '/logout',
-    onEnter: ['AuthenticationService', function(AuthenticationService) {
-      var savedUser = JSON.parse(localStorage.getItem('user'));
-      AuthenticationService.logout(savedUser);
+    onEnter: ['AuthenticationService', function(auth) {
+      auth.logout(auth.getUser());
     }]
   })
 
@@ -95,5 +93,5 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives',
   });
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/home');
+  $urlRouterProvider.otherwise('/app/login');
 });

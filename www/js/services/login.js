@@ -1,7 +1,7 @@
 angular
-.module('starter.services', ['http-auth-interceptor'])
-.service('AuthenticationService', ['$rootScope', '$http', 'authService', 'ApiEndpoint', '$state',
-  function($rootScope, $http, authService, ApiEndpoint, $state) {
+.module('starter.services', [])
+.service('AuthenticationService', ['$rootScope', '$http', 'ApiEndpoint', '$state',
+  function($rootScope, $http, ApiEndpoint, $state) {
       this.login = function(user) {
         $http({
           url:  ApiEndpoint.url + '/users/api_users/login',
@@ -15,25 +15,26 @@ angular
         })
         .success(function (data, status, headers, config) {
             localStorage.setItem('user', JSON.stringify({token: data.data.token.access_token, user: data.data.name}));
-            authService.loginConfirmed(data, function(config) {
-              config.headers.Authorization = data.data.token.access_token;
-              return config;
-            });
+            $rootScope.$broadcast('login-confirmed', data);
         })
         .error(function (data, status, headers, config) {
-          $rootScope.$broadcast('event:auth-login-failed', data);
+          $rootScope.$broadcast('login-failed', data);
         });
-
       };
+
       this.logout = function(user) {
-          $state.go('app.home');
+          $state.go('app.login');
           localStorage.removeItem('user');
       };
-      this.loginCancelled = function() {
-        authService.loginCancelled();
-      };
+
       this.getUser = function() {
         return JSON.parse(localStorage.getItem('user'));
       };
+
+      this.loginConfirmed = function() {
+        $rootScope.$broadcast('destroy-modal');
+        $state.go('app.rutas', {}, {reload: true, inherit: false});
+      };
+
   }
 ]);
