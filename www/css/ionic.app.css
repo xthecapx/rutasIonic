@@ -10017,6 +10017,14 @@ select.disabled, label.disabled {
   left: 50%;
   z-index: 100; }
 
+.spinner.login svg {
+  fill: white;
+  height: auto;
+  left: 90%;
+  stroke: white;
+  top: 5%;
+  width: 10%; }
+
 .loader {
   width: 40px;
   height: 40px;

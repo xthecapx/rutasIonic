@@ -1,8 +1,9 @@
-<ion-modal-view>
+<ion-modal-view ng-controller="LoginController">
   <ion-header-bar class="bar bar-header bar-positive">
     <h1 class="title">Identificate</h1>
+    <ion-spinner icon="ripple" class="login" ng-if="loader"></ion-spinner>
   </ion-header-bar>
-  <ion-content class="padding" ng-controller="LoginController">
+  <ion-content class="padding">
     <div class="list">
       <label class="item item-input">
         <span class="input-label">Usuario</span>
