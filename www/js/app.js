@@ -62,18 +62,23 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives',
 
   .state('app.home', {
     url: '/home',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/views/home.html',
-        controller: 'HomeController'
-      }
-    }
+    onEnter: ['ModalService', 'AuthenticationService', '$rootScope', '$state', function(ModalService, auth, $rootScope, $state) {
+      ModalService
+        .init('templates/commons/login.html')
+        .then(function(modal) {
+          if (!auth.getUser()) {
+            modal.show();
+          } else {
+            $rootScope.$broadcast('destroy-modal');
+            $state.go('app.rutas', {}, {reload: true, inherit: false});
+          }
+        });
+    }]
   })
 
   .state('app.logout', {
     url: '/logout',
-    onEnter: ['AuthenticationService', 'LoginController', function(AuthenticationService, LoginController) {
-      debugger;
+    onEnter: ['AuthenticationService', function(AuthenticationService) {
       var savedUser = JSON.parse(localStorage.getItem('user'));
       AuthenticationService.logout(savedUser);
     }]

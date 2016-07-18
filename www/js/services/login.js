@@ -1,7 +1,7 @@
 angular
 .module('starter.services', ['http-auth-interceptor'])
-.service('AuthenticationService', ['$rootScope', '$http', 'authService', 'ApiEndpoint',
-  function($rootScope, $http, authService, ApiEndpoint) {
+.service('AuthenticationService', ['$rootScope', '$http', 'authService', 'ApiEndpoint', '$state',
+  function($rootScope, $http, authService, ApiEndpoint, $state) {
       this.login = function(user) {
         $http({
           url:  ApiEndpoint.url + '/users/api_users/login',
@@ -14,7 +14,6 @@ angular
           }
         })
         .success(function (data, status, headers, config) {
-            $http.defaults.headers.common.Authorization = data.data.token.access_token;
             localStorage.setItem('user', JSON.stringify({token: data.data.token.access_token, user: data.data.name}));
             authService.loginConfirmed(data, function(config) {
               config.headers.Authorization = data.data.token.access_token;
@@ -27,9 +26,8 @@ angular
 
       };
       this.logout = function(user) {
-          delete $http.defaults.headers.common.Authorization;
+          $state.go('app.home');
           localStorage.removeItem('user');
-          $rootScope.$broadcast('event:auth-logout-complete');
       };
       this.loginCancelled = function() {
         authService.loginCancelled();
