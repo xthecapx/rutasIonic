@@ -61,5 +61,5 @@ angular.module('starter.directives', [])
          tip.toggleClass(tipActiveClassName);
        });
      }
-   }
+   };
 });

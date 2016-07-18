@@ -10,7 +10,8 @@ angular
     promise = $ionicModal.fromTemplateUrl(tpl, {
       scope: $scope,
       animation: 'slide-in-up',
-      focusFirstInput: true
+      focusFirstInput: true,
+      hardwareBackButtonClose: false
     }).then(function(modal) {
       $scope.modal = modal;
       return modal;
