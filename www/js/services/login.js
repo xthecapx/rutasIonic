@@ -35,6 +35,5 @@ angular
         $rootScope.$broadcast('destroy-modal');
         $state.go('app.rutas', {}, {reload: true, inherit: false});
       };
-
   }
 ]);

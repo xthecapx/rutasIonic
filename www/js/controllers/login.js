@@ -4,7 +4,7 @@ angular.module('starter.controllers')
   $ionicHistory.clearHistory();
 }])*/
 
-.controller('LoginController', ['$scope', '$rootScope', '$http', '$state', 'AuthenticationService', function($scope, $rootScope, $http, $state, auth) {
+.controller('LoginController', ['$scope', '$rootScope', '$http', '$state', 'AuthenticationService', 'FocusService', function($scope, $rootScope, $http, $state, auth, focus) {
 
   $scope.init = function(message, loader, username, password) {
     $scope.message = message;
@@ -21,10 +21,21 @@ angular.module('starter.controllers')
     auth.login($scope.user);
   };
 
+  $scope.doFocus = function(el) {
+    focus.focusElement(el);
+
+    $(el).parent().parent().on("input propertychange paste", "input", $.proxy(function(el) {
+      this.message = "";
+      $(el).unbind();
+    }, $scope)).trigger("propertychange");
+  };
+
   $scope.init();
 
   $scope.$on('login-failed', function(e, data) {
-    $scope.init(data.message, false);
+    $scope.doFocus(".username");
+    $scope.message = data.message;
+    $scope.loader = false;
   });
 
   $scope.$on('login-confirmed', function(e) {
