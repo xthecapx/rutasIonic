@@ -135,29 +135,6 @@ $blue-light: #F8FFFF;
 
 /* Info messages */
 
-.info {
-  position: relative;
-  text-align: center;
-
-  .heading {
-    text-align: right;
-    font-size: 1em;
-  }
-}
-
-.message {
-  &.info {
-    box-shadow: 0 0 0 1px #A9D5DE inset,0 0 0 0 transparent;
-    background-color: $blue-light;
-    color: $blue-dark;
-    font-size: 1em;
-    max-width: 700px;
-    border-radius: 5px;
-    padding: 2% 3%;
-    margin: 15px 0 25px;
-  }
-}
-
 .tooltip {
   display: none;
   position: absolute;
@@ -248,26 +225,7 @@ select, label {
   }
 }
 
-.spinner {
-
-  svg {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    z-index: 100;
-  }
-
-  &.login {
-    svg {
-      fill: white;
-      height: auto;
-      left: 90%;
-      stroke: white;
-      top: 5%;
-      width: 10%;
-    }
-  }
-}
-
 @import "components/loaders";
-@import "components/form"; 
+@import "components/form";
+@import "components/header";
+@import "components/messages";

@@ -1,0 +1,16 @@
+.bar-header {
+  img {
+    &.unal {
+      margin: 0;
+      width: 118px;
+      height: 44px;
+    }
+    &.colombia {
+      width: 44px;
+      height: 44px;
+      top: 4px;
+      right: 5px;
+      position: absolute;
+    }
+  }
+}

@@ -35,3 +35,23 @@
     opacity: 0;
   }
 }
+
+.spinner {
+  svg {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    z-index: 100;
+  }
+
+  &.login {
+    svg {
+      fill: white;
+      height: auto;
+      left: 60%;
+      stroke: white;
+      top: 0;
+      width: 10%;
+    }
+  }
+}
