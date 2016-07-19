@@ -19,6 +19,10 @@
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
+  <preference name="KeyboardDisplayRequiresUserAction" value="false"/>
+  <feature name="Keyboard">
+    <param name="ios-package" onload="true" value="IonicKeyboard"/>
+  </feature>
   <access origin="*"/>
   <allow-navigation href="*"/>
   <allow-intent href="*"/>
