@@ -9827,6 +9827,10 @@ a.button {
 img {
   width: 100%; }
 
+.shadow {
+  background: rgba(50, 50, 50, 0.1);
+  border: 0; }
+
 /* Empty. Add your own CSS if you like */
 .card {
   margin: 0 auto;
@@ -10038,10 +10042,10 @@ select.disabled, label.disabled {
 .spinner.login svg {
   fill: white;
   height: auto;
-  left: 60%;
+  left: 64%;
   stroke: white;
   top: 0;
-  width: 10%; }
+  width: 15%; }
 
 .loginForm .focus {
   border-color: #66afe9;
