@@ -9,8 +9,8 @@ angular
           params: {
             username: user.username,
             password: user.password,
-            client_id: "android",
-            client_secret: "O20wgetsGF82eFTwTVA2qWFAcxGhiq0x"
+            client_id: ApiEndpoint.client_id,
+            client_secret: ApiEndpoint.client_secret
           }
         })
         .success(function (data, status, headers, config) {

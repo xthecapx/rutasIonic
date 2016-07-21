@@ -4,7 +4,7 @@ angular.module('starter.controllers')
   $ionicHistory.clearHistory();
 }])*/
 
-.controller('LoginController', ['$scope', '$rootScope', '$http', '$state', 'AuthenticationService', 'FocusService', function($scope, $rootScope, $http, $state, auth, focus) {
+.controller('LoginController', ['$scope', '$rootScope', '$http', '$state' ,'$timeout', 'AuthenticationService', 'FocusService', 'KeyboardService', function($scope, $rootScope, $http, $state, $timeout, auth, focus, keyboard) {
 
   $scope.init = function(message, loader, username, password) {
     $scope.message = message;
@@ -18,6 +18,7 @@ angular.module('starter.controllers')
 
   $scope.login = function() {
     $scope.loader = true;
+    keyboard.close();
     auth.login($scope.user);
   };
 
@@ -28,10 +29,13 @@ angular.module('starter.controllers')
       this.message = "";
       $(el).unbind();
     }, $scope)).trigger("propertychange");
+
+    $timeout(function(){
+      keyboard.open();
+    }, 1000);
   };
 
   $scope.init();
-
   $scope.$on('login-failed', function(e, data) {
     $scope.doFocus(".username");
     $scope.message = data.message;
