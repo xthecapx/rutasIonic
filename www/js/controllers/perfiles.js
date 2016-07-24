@@ -7,8 +7,8 @@ angular.module('starter.controllers')
   getService
     .getData("/rutas/api_perfiles", {programa_id: $scope.programa_id})
     .success(function(response) {
-      $scope.loading = false;
       $scope.perfiles = response.data;
+      $scope.loading = false;
     });
 
 }]);

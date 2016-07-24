@@ -1,6 +1,6 @@
 angular.module('starter.controllers')
 
-.controller('ProgramasController', ['$scope', 'getService', 'ApiEndpoint', function($scope, getService, ApiEndpoint) {
+.controller('ProgramasController', ['$scope', 'getService', 'ApiEndpoint', 'AuthenticationService', function($scope, getService, ApiEndpoint, login) {
   var httpCall = function(call) {
     this._call = call;
     this._scope = $scope;
@@ -45,6 +45,8 @@ angular.module('starter.controllers')
       };
     });
   };
+
+  $scope.user = login.getUser();
 
   $scope._selectFacultad = {
     show: function() {

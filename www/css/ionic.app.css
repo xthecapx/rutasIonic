@@ -9868,6 +9868,9 @@ img {
 .back {
   background-color: #006325; }
 
+select.disabled, label.disabled {
+  background: #D3D3D3; }
+
 .flipper {
   overflow: hidden; }
 
@@ -9925,7 +9928,6 @@ img {
   visibility: visible;
   position: relative; }
 
-/* Info messages */
 .tooltip {
   display: none;
   position: absolute;
@@ -9993,13 +9995,11 @@ img {
   display: block;
   border-radius: 50%;
   vertical-align: middle;
-  bottom: 50%;
-  right: 3%; }
+  bottom: 75%;
+  right: 3%;
+  text-align: center; }
   .tooltip-circle:before {
     padding-top: 10px; }
-
-select.disabled, label.disabled {
-  background: #D3D3D3; }
 
 .loader {
   width: 40px;
@@ -10073,7 +10073,7 @@ select.disabled, label.disabled {
 
 .info {
   position: relative;
-  text-align: center; }
+  text-align: left; }
   .info .heading {
     text-align: right;
     font-size: 1em; }
@@ -10085,7 +10085,7 @@ select.disabled, label.disabled {
   font-size: 1em;
   max-width: 700px;
   border-radius: 5px;
-  padding: 2% 3%;
+  padding: 2% 50px 2% 3%;
   margin: 15px 0 25px; }
 
 .message.warning {

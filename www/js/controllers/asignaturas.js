@@ -9,8 +9,8 @@ angular.module('starter.controllers')
   getService
     .getData("/rutas/api_asignatura_rutas", {perfile_id: $scope.perfil_id})
     .success(function(response) {
-      $scope.loading = false;
       $scope.asignaturas = response.data;
+      $scope.loading = false;
     });
 
   $scope.flipper = function($event) {
