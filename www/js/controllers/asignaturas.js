@@ -4,10 +4,12 @@ angular.module('starter.controllers')
   $scope.perfil_id = parseInt($stateParams.perfil_id,10);
   $scope.perfilName = $stateParams.perfil_name || "Asignaturas";
   $scope.flippedCard = true;
+  $scope.loading = true;
 
   getService
     .getData("/rutas/api_asignatura_rutas", {perfile_id: $scope.perfil_id})
     .success(function(response) {
+      $scope.loading = false;
       $scope.asignaturas = response.data;
     });
 

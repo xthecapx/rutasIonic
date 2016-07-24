@@ -1,6 +1,11 @@
 <ion-view view-title="Perfiles">
   <ion-content>
-      <div class="loader" ng-show="loading"></div>
+      <div class="loading" ng-if="loading">
+        <div class="dialog">
+          <ion-spinner icon="spiral"></ion-spinner>
+          <span>Cargando ...</span>
+        </div>
+      </div>
       <div class="list card" ng-repeat="item in perfiles">
         <div class="item item-divider">
           {{item.perfil}}

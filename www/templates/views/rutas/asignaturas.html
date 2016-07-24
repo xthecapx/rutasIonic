@@ -1,5 +1,11 @@
 <ion-view class="asignaturas" view-title="{{perfilName}}">
   <ion-content>
+    <div class="loading" ng-if="loading">
+      <div class="dialog">
+        <ion-spinner icon="spiral"></ion-spinner>
+        <span>Cargando ...</span>
+      </div>
+    </div>
     <div class="list flipper" ng-repeat="item in asignaturas">
         <div class="card front-card">
           <div class="item item-divider item-text-wrap">
