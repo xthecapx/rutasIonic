@@ -48,6 +48,10 @@ angular.module('starter.controllers')
 
   $scope.user = login.getUser();
 
+  $scope.$on("update-user", function() {
+    $scope.user = login.getUser();
+  });
+
   $scope._selectFacultad = {
     show: function() {
       $scope.loader.facultad = true;

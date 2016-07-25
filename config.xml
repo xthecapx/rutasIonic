@@ -2,17 +2,17 @@
 <widget id="com.ionicframework.rutasapp765666" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>rutasApp 2</name>
   <description>&#xD;&#xD;
-        This is the description&#xD;&#xD;
-    </description>
-  <author email="you@example.com" href="http://example.com.com/">&#xD;&#xD;
-      Cristian Marquez&#xD;&#xD;
-    </author>
+    Aplicativo de rutas Universidad Nacional
+  </description>
+  <author email="ing.cristian.marquez@gmail.com" href="http://example.com.com/">&#xD;&#xD;
+    Cristian Marquez&#xD;&#xD;
+  </author>
   <content src="index.html"/>
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
   <preference name="DisallowOverscroll" value="true"/>
-  <preference name="SplashScreenDelay" value="2000"/>
-  <preference name="FadeSplashScreenDuration" value="2000"/>
+  <preference name="SplashScreenDelay" value="3000"/>
+  <preference name="FadeSplashScreenDuration" value="600"/>
   <preference name="android-minSdkVersion" value="16"/>
   <preference name="BackupWebStorage" value="none"/>
   <preference name="SplashScreen" value="screen"/>
@@ -78,5 +78,4 @@
     <splash src="resources\android\splash\drawable-port-xxhdpi-screen.png" density="port-xxhdpi"/>
     <splash src="resources\android\splash\drawable-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
   </platform>
-  <icon src="resources\android\icon\drawable-xhdpi-icon.png"/>
 </widget>

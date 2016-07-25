@@ -33,6 +33,7 @@ angular
 
       this.loginConfirmed = function() {
         $rootScope.$broadcast('destroy-modal');
+        $rootScope.$broadcast('update-user');
         $state.go('app.rutas', {}, {reload: true, inherit: false});
       };
   }
