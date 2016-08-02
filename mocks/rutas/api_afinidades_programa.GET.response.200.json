@@ -1,0 +1,15 @@
+{
+  "status":200,
+  "error":null,
+  "success":true,
+  "message":"200 OK",
+  "data":[
+    {"id":4029,"value":"Administracion de Sistemas Informaticos"},
+    {"id":4021,"value":"Ingenier\u00eda Civil"},
+    {"id":4022,"value":"Ingenier\u00eda El\u00e9ctrica"},
+    {"id":4028,"value":"Ingenier\u00eda Electr\u00f3nica"},
+    {"id":4030,"value":"Ingenier\u00eda Fisica"},
+    {"id":4024,"value":"Ingenier\u00eda Industrial"},
+    {"id":4023,"value":"Ingenier\u00eda Quimica"}
+  ]
+}

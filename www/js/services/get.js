@@ -3,7 +3,6 @@ angular.module('starter.controllers')
 
   this.getData = function(uri, parameters) {
     $http.defaults.headers.common.Authorization = 'Bearer ' + user.getUser().token;
-
     return $http({
       url:  ApiEndpoint.url + uri,
       method: "GET",

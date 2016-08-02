@@ -82,12 +82,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives',
     }]
   })
 
-  .state('app.doble_titulacion', {
-    url: '/doble_titulacion',
+  .state('app.afinidades', {
+    url: '/afinidades',
     views: {
       'menuContent': {
-        templateUrl: 'templates/views/doble_titulacion/doble_titulacion.html',
-        controller: 'DobleTitulacionController'
+        templateUrl: 'templates/views/doble_titulacion/afinidades.html',
+        controller: 'AfinidadesController'
       }
     }
   });

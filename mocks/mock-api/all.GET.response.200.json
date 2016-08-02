@@ -1,6 +1,62 @@
 [
   {
-    "url": "\\api_asignatura_rutas.GET.response.200.json",
+    "url": "\\rutas\\api_afinidades_programa.GET.response.200.json",
+    "res": {
+      "data": [
+        {
+          "id": 4029,
+          "value": "Administracion de Sistemas Informaticos"
+        },
+        {
+          "id": 4021,
+          "value": "Ingeniería Civil"
+        },
+        {
+          "id": 4022,
+          "value": "Ingeniería Eléctrica"
+        },
+        {
+          "id": 4028,
+          "value": "Ingeniería Electrónica"
+        },
+        {
+          "id": 4030,
+          "value": "Ingeniería Fisica"
+        },
+        {
+          "id": 4024,
+          "value": "Ingeniería Industrial"
+        },
+        {
+          "id": 4023,
+          "value": "Ingeniería Quimica"
+        }
+      ]
+    }
+  },
+  {
+    "url": "\\rutas\\api_afinidades_sedes.GET.response.200.json",
+    "res": [
+      {
+        "id": 2,
+        "value": "Bogota"
+      },
+      {
+        "id": 4,
+        "value": "Manizales"
+      },
+      {
+        "id": 3,
+        "value": "Medellín"
+      },
+      {
+        "id": 5,
+        "value": "Palmira"
+      }
+    ]
+  },
+  {
+    "url": "\\rutas\\api_asignatura_rutas.GET.response.200.json",
     "res": {
       "status": 200,
       "error": null,
@@ -416,7 +472,7 @@
     }
   },
   {
-    "url": "\\api_facultades.GET.response.200.json",
+    "url": "\\rutas\\api_facultades.GET.response.200.json",
     "res": {
       "status": 200,
       "error": null,
@@ -509,7 +565,7 @@
     }
   },
   {
-    "url": "\\api_perfiles.GET.response.200.json",
+    "url": "\\rutas\\api_perfiles.GET.response.200.json",
     "res": {
       "status": 200,
       "error": null,
@@ -679,7 +735,7 @@
     }
   },
   {
-    "url": "\\api_programas.GET.response.200.json",
+    "url": "\\rutas\\api_programas.GET.response.200.json",
     "res": {
       "status": 200,
       "error": null,
@@ -760,7 +816,7 @@
     }
   },
   {
-    "url": "\\api_sedes.GET.response.200.json",
+    "url": "\\rutas\\api_sedes.GET.response.200.json",
     "res": {
       "status": 200,
       "error": null,

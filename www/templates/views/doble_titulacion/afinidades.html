@@ -1,0 +1,44 @@
+<ion-view view-title="Afinidades">
+  <ion-content>
+    <div class="row has-header">
+      <div class="col">
+        <div class="tooltip-parent info message">
+          Seleccione los datos para comenzar
+          <tooltip tooltip="Descripción de la doble titulación" tooltip-position="left-badged" class="tooltip-circle ion-information"></tooltip>
+        </div>
+
+        <div class="list">
+          <label class="item item-input item-select">
+            <div class="input-label">
+              Sede
+            </div>
+            <select name="sede" id="sede" ng-model="sede.repeatSelect">
+              <option ng-repeat="option in sede.availableOptions" value="{{option.id}}">{{option.name}}</option>
+            </select>
+          </label>
+          <label
+            class="item item-input item-select"
+            ng-class="{disabled:!disable.programa}">
+            <div class="input-label">
+              Programa <ion-spinner icon="ripple" ng-if="loader.programa"></ion-spinner>
+            </div>
+            <select
+              name="programa"
+              id="programa"
+              ng-model="programa.repeatSelect"
+              ng-class="{disabled:!disable.programa}"
+              ng-disabled="!disable.programa">
+              <option ng-repeat="option in programa.availableOptions" value="{{option.id}}">{{option.name}}</option>
+            </select>
+          </label>
+        </div>
+        <button
+          class="button button-full button-balanced"
+          ui-sref="app.perfiles({programa_id: programa.repeatSelect})"
+          ng-if="disable.button">
+          Ver afinidades
+        </button>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

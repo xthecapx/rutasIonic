@@ -1,0 +1,12 @@
+{
+  "status":200,
+  "error":null,
+  "success":true,
+  "message":"200 OK",
+  "data":[
+    {"id":2,"value":"Bogota"},
+    {"id":4,"value":"Manizales"},
+    {"id":3,"value":"Medell\u00edn"},
+    {"id":5,"value":"Palmira"}
+  ]
+}
