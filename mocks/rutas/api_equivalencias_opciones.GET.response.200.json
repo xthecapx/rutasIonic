@@ -4,11 +4,11 @@
   "success": true,
   "message": "200 OK",
   "data": [{
-    "id":"Bogot\u00e1 | Ingenier\u00eda | Ingenier\u00eda Civil",
+    "id": 1,
     "value":"Bogot\u00e1 | Ingenier\u00eda | Ingenier\u00eda Civil"
   },
   {
-    "id":"Palmira | Ingenier\u00eda y Administraci\u00f3n  | Ingenier\u00eda  Ambiental",
+    "id": 2,
     "value":"Palmira | Ingenier\u00eda y Administraci\u00f3n  | Ingenier\u00eda  Ambiental"
   }]
 }

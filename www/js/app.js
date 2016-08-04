@@ -110,6 +110,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives',
         controller: 'EquivalenciasController'
       }
     }
+  })
+
+  .state('app.equivalencias_detalles', {
+    url: '/equivalencias/detalles/:origen_id/:destino_id',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/views/equivalencias/equivalencias_detalles.html',
+        controller: 'EquivalenciasDetalleController'
+      }
+    }
   });
 
   // if none of the above states are matched, use this as the fallback

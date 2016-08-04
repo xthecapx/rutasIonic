@@ -490,11 +490,11 @@
       "message": "200 OK",
       "data": [
         {
-          "id": "Bogotá | Ingeniería | Ingeniería Civil",
+          "id": 1,
           "value": "Bogotá | Ingeniería | Ingeniería Civil"
         },
         {
-          "id": "Palmira | Ingeniería y Administración  | Ingeniería  Ambiental",
+          "id": 2,
           "value": "Palmira | Ingeniería y Administración  | Ingeniería  Ambiental"
         }
       ]
