@@ -2,6 +2,10 @@
   {
     "url": "\\rutas\\api_afinidades_programa.GET.response.200.json",
     "res": {
+      "status": 200,
+      "error": null,
+      "success": true,
+      "message": "200 OK",
       "data": [
         {
           "id": 4029,
@@ -36,24 +40,30 @@
   },
   {
     "url": "\\rutas\\api_afinidades_sedes.GET.response.200.json",
-    "res": [
-      {
-        "id": 2,
-        "value": "Bogota"
-      },
-      {
-        "id": 4,
-        "value": "Manizales"
-      },
-      {
-        "id": 3,
-        "value": "Medellín"
-      },
-      {
-        "id": 5,
-        "value": "Palmira"
-      }
-    ]
+    "res": {
+      "status": 200,
+      "error": null,
+      "success": true,
+      "message": "200 OK",
+      "data": [
+        {
+          "id": 2,
+          "value": "Bogota"
+        },
+        {
+          "id": 4,
+          "value": "Manizales"
+        },
+        {
+          "id": 3,
+          "value": "Medellín"
+        },
+        {
+          "id": 5,
+          "value": "Palmira"
+        }
+      ]
+    }
   },
   {
     "url": "\\rutas\\api_asignatura_rutas.GET.response.200.json",
@@ -467,6 +477,148 @@
             "total_creditos": "47",
             "descripcion": "Descripción pendiente"
           }
+        }
+      ]
+    }
+  },
+  {
+    "url": "\\rutas\\api_equivalencias_opciones.GET.response.200.json",
+    "res": {
+      "status": 200,
+      "error": null,
+      "success": true,
+      "message": "200 OK",
+      "data": [
+        {
+          "id": "Bogotá | Ingeniería | Ingeniería Civil",
+          "value": "Bogotá | Ingeniería | Ingeniería Civil"
+        },
+        {
+          "id": "Palmira | Ingeniería y Administración  | Ingeniería  Ambiental",
+          "value": "Palmira | Ingeniería y Administración  | Ingeniería  Ambiental"
+        }
+      ]
+    }
+  },
+  {
+    "url": "\\rutas\\api_equivalencias_programas.GET.response.200.json",
+    "res": {
+      "status": 200,
+      "error": null,
+      "success": true,
+      "message": "200 OK",
+      "data": [
+        {
+          "id": "Bogotá | Ciencias Económicas | Economía",
+          "value": "Bogotá | Ciencias Económicas | Economía"
+        },
+        {
+          "id": "Bogotá | Ingeniería | Ingeniería Eléctrica",
+          "value": "Bogotá | Ingeniería | Ingeniería Eléctrica"
+        },
+        {
+          "id": "Bogotá | Ingeniería | Ingeniería Electrónica",
+          "value": "Bogotá | Ingeniería | Ingeniería Electrónica"
+        },
+        {
+          "id": "Bogotá | Ingeniería | Ingeniería Mecatronica",
+          "value": "Bogotá | Ingeniería | Ingeniería Mecatronica"
+        },
+        {
+          "id": "Bogotá | Ingeniería | Ingeniería Agricola ",
+          "value": "Bogotá | Ingeniería | Ingeniería Agricola "
+        },
+        {
+          "id": "Bogotá | Ciencias Humanas | Lingüística",
+          "value": "Bogotá | Ciencias Humanas | Lingüística"
+        },
+        {
+          "id": "Bogotá | Ciencias Humanas | Filología e Idiomas- Inglés",
+          "value": "Bogotá | Ciencias Humanas | Filología e Idiomas- Inglés"
+        },
+        {
+          "id": "Bogotá | Ciencias Humanas | Estudios Literarios",
+          "value": "Bogotá | Ciencias Humanas | Estudios Literarios"
+        },
+        {
+          "id": "Bogotá | Ciencias Humanas | Antropologia",
+          "value": "Bogotá | Ciencias Humanas | Antropologia"
+        },
+        {
+          "id": "Bogotá | Ciencias Humanas | Artes Plasticas",
+          "value": "Bogotá | Ciencias Humanas | Artes Plasticas"
+        },
+        {
+          "id": "Medellín | Ciencias Agrarias | Ingeniería Forestal ",
+          "value": "Medellín | Ciencias Agrarias | Ingeniería Forestal "
+        },
+        {
+          "id": "Medellín | Arquitectura | Construcción",
+          "value": "Medellín | Arquitectura | Construcción"
+        },
+        {
+          "id": "Medellín | Minas | Ingeniería Administrativa",
+          "value": "Medellín | Minas | Ingeniería Administrativa"
+        },
+        {
+          "id": "Medellín | Minas | Ingeniería Química",
+          "value": "Medellín | Minas | Ingeniería Química"
+        },
+        {
+          "id": "Medellín | Ciencias Agrarias | Ingeniería Agrícola",
+          "value": "Medellín | Ciencias Agrarias | Ingeniería Agrícola"
+        },
+        {
+          "id": "Medellín | Ciencias Humanas y Económicas | Ciencia Política",
+          "value": "Medellín | Ciencias Humanas y Económicas | Ciencia Política"
+        },
+        {
+          "id": "Manizales | Ingeniería y Arquitectura | Ingeniería Química",
+          "value": "Manizales | Ingeniería y Arquitectura | Ingeniería Química"
+        },
+        {
+          "id": "Manizales | Ingeniería y Arquitectura | Ingeniería Eléctrica",
+          "value": "Manizales | Ingeniería y Arquitectura | Ingeniería Eléctrica"
+        },
+        {
+          "id": "Manizales | Ingeniería y Arquitectura | Ingeniería Electrónica",
+          "value": "Manizales | Ingeniería y Arquitectura | Ingeniería Electrónica"
+        },
+        {
+          "id": "Manizales | Ingeniería y Arquitectura | Ingeniería Civil",
+          "value": "Manizales | Ingeniería y Arquitectura | Ingeniería Civil"
+        },
+        {
+          "id": "Manizales | Ingeniería y Arquitectura | Ingenería Industrial",
+          "value": "Manizales | Ingeniería y Arquitectura | Ingenería Industrial"
+        },
+        {
+          "id": "Manizales | Ciencias Exáctas y Naturales | Ingeniería Física",
+          "value": "Manizales | Ciencias Exáctas y Naturales | Ingeniería Física"
+        },
+        {
+          "id": "Manizales | Ingeniería y Arquitectura | Ingeniería Industrial",
+          "value": "Manizales | Ingeniería y Arquitectura | Ingeniería Industrial"
+        },
+        {
+          "id": "Manizales | Ingeniería y Arquitectura | Administración de Empresas",
+          "value": "Manizales | Ingeniería y Arquitectura | Administración de Empresas"
+        },
+        {
+          "id": "Palmira | Ingeniería y Adminsitración  | Ingeniería Agrícola",
+          "value": "Palmira | Ingeniería y Adminsitración  | Ingeniería Agrícola"
+        },
+        {
+          "id": "Palmira | Ingeniería y Administración  | Administración de Empresas",
+          "value": "Palmira | Ingeniería y Administración  | Administración de Empresas"
+        },
+        {
+          "id": "Palmira | Ingeniería y Administración  | Ingeniería Ambiental",
+          "value": "Palmira | Ingeniería y Administración  | Ingeniería Ambiental"
+        },
+        {
+          "id": "Palmira | Ingeniería y Administración  | Ingeniería Agrícola",
+          "value": "Palmira | Ingeniería y Administración  | Ingeniería Agrícola"
         }
       ]
     }

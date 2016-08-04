@@ -90,6 +90,26 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives',
         controller: 'AfinidadesController'
       }
     }
+  })
+
+  .state('app.afinidades_detalle', {
+    url: '/afinidades/detalles/:sede_id/:programa_id',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/views/doble_titulacion/afinidades_detalle.html',
+        controller: 'AfinidadesDetalleController'
+      }
+    }
+  })
+
+  .state('app.equivalencias', {
+    url: '/equivalencias',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/views/equivalencias/equivalencias.html',
+        controller: 'EquivalenciasController'
+      }
+    }
   });
 
   // if none of the above states are matched, use this as the fallback

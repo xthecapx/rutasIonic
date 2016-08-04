@@ -10,7 +10,7 @@
         <div class="list">
           <label class="item item-input item-select">
             <div class="input-label">
-              Sede
+              Sede Origen
             </div>
             <select name="sede" id="sede" ng-model="sede.repeatSelect">
               <option ng-repeat="option in sede.availableOptions" value="{{option.id}}">{{option.name}}</option>
@@ -20,7 +20,7 @@
             class="item item-input item-select"
             ng-class="{disabled:!disable.programa}">
             <div class="input-label">
-              Programa <ion-spinner icon="ripple" ng-if="loader.programa"></ion-spinner>
+              Programa Origen <ion-spinner icon="ripple" ng-if="loader.programa"></ion-spinner>
             </div>
             <select
               name="programa"
@@ -34,7 +34,7 @@
         </div>
         <button
           class="button button-full button-balanced"
-          ui-sref="app.perfiles({programa_id: programa.repeatSelect})"
+          ui-sref="app.afinidades_detalle({sede_id: sede.repeatSelect, programa_id: programa.repeatSelect})"
           ng-if="disable.button">
           Ver afinidades
         </button>

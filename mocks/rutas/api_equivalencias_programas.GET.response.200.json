@@ -1,0 +1,91 @@
+{
+  "status": 200,
+  "error": null,
+  "success": true,
+  "message": "200 OK",
+  "data": [{
+      "id":"Bogot\u00e1 | Ciencias Econ\u00f3micas | Econom\u00eda",
+      "value":"Bogot\u00e1 | Ciencias Econ\u00f3micas | Econom\u00eda"
+    },
+    {
+      "id":"Bogot\u00e1 | Ingenier\u00eda | Ingenier\u00eda El\u00e9ctrica",
+      "value":"Bogot\u00e1 | Ingenier\u00eda | Ingenier\u00eda El\u00e9ctrica"},
+    {
+      "id":"Bogot\u00e1 | Ingenier\u00eda | Ingenier\u00eda Electr\u00f3nica",
+      "value":"Bogot\u00e1 | Ingenier\u00eda | Ingenier\u00eda Electr\u00f3nica"},
+    {
+      "id":"Bogot\u00e1 | Ingenier\u00eda | Ingenier\u00eda Mecatronica",
+      "value":"Bogot\u00e1 | Ingenier\u00eda | Ingenier\u00eda Mecatronica"},
+    {
+      "id":"Bogot\u00e1 | Ingenier\u00eda | Ingenier\u00eda Agricola ",
+      "value":"Bogot\u00e1 | Ingenier\u00eda | Ingenier\u00eda Agricola "},
+    {
+      "id":"Bogot\u00e1 | Ciencias Humanas | Ling\u00fc\u00edstica",
+      "value":"Bogot\u00e1 | Ciencias Humanas | Ling\u00fc\u00edstica"},
+    {
+      "id":"Bogot\u00e1 | Ciencias Humanas | Filolog\u00eda e Idiomas- Ingl\u00e9s",
+      "value":"Bogot\u00e1 | Ciencias Humanas | Filolog\u00eda e Idiomas- Ingl\u00e9s"},
+    {
+      "id":"Bogot\u00e1 | Ciencias Humanas | Estudios Literarios",
+      "value":"Bogot\u00e1 | Ciencias Humanas | Estudios Literarios"},
+    {
+      "id":"Bogot\u00e1 | Ciencias Humanas | Antropologia",
+      "value":"Bogot\u00e1 | Ciencias Humanas | Antropologia"},
+    {
+      "id":"Bogot\u00e1 | Ciencias Humanas | Artes Plasticas",
+      "value":"Bogot\u00e1 | Ciencias Humanas | Artes Plasticas"},
+    {
+      "id":"Medell\u00edn | Ciencias Agrarias | Ingenier\u00eda Forestal ",
+      "value":"Medell\u00edn | Ciencias Agrarias | Ingenier\u00eda Forestal "},
+    {
+      "id":"Medell\u00edn | Arquitectura | Construcci\u00f3n",
+      "value":"Medell\u00edn | Arquitectura | Construcci\u00f3n"},
+    {
+      "id":"Medell\u00edn | Minas | Ingenier\u00eda Administrativa",
+      "value":"Medell\u00edn | Minas | Ingenier\u00eda Administrativa"},
+    {
+      "id":"Medell\u00edn | Minas | Ingenier\u00eda Qu\u00edmica",
+      "value":"Medell\u00edn | Minas | Ingenier\u00eda Qu\u00edmica"},
+    {
+      "id":"Medell\u00edn | Ciencias Agrarias | Ingenier\u00eda Agr\u00edcola",
+      "value":"Medell\u00edn | Ciencias Agrarias | Ingenier\u00eda Agr\u00edcola"},
+    {
+      "id":"Medell\u00edn | Ciencias Humanas y Econ\u00f3micas | Ciencia Pol\u00edtica",
+      "value":"Medell\u00edn | Ciencias Humanas y Econ\u00f3micas | Ciencia Pol\u00edtica"},
+    {
+      "id":"Manizales | Ingenier\u00eda y Arquitectura | Ingenier\u00eda Qu\u00edmica",
+      "value":"Manizales | Ingenier\u00eda y Arquitectura | Ingenier\u00eda Qu\u00edmica"},
+    {
+      "id":"Manizales | Ingenier\u00eda y Arquitectura | Ingenier\u00eda El\u00e9ctrica",
+      "value":"Manizales | Ingenier\u00eda y Arquitectura | Ingenier\u00eda El\u00e9ctrica"},
+    {
+      "id":"Manizales | Ingenier\u00eda y Arquitectura | Ingenier\u00eda Electr\u00f3nica",
+      "value":"Manizales | Ingenier\u00eda y Arquitectura | Ingenier\u00eda Electr\u00f3nica"},
+    {
+      "id":"Manizales | Ingenier\u00eda y Arquitectura | Ingenier\u00eda Civil",
+      "value":"Manizales | Ingenier\u00eda y Arquitectura | Ingenier\u00eda Civil"},
+    {
+      "id":"Manizales | Ingenier\u00eda y Arquitectura | Ingener\u00eda Industrial",
+      "value":"Manizales | Ingenier\u00eda y Arquitectura | Ingener\u00eda Industrial"},
+    {
+      "id":"Manizales | Ciencias Ex\u00e1ctas y Naturales | Ingenier\u00eda F\u00edsica",
+      "value":"Manizales | Ciencias Ex\u00e1ctas y Naturales | Ingenier\u00eda F\u00edsica"},
+    {
+      "id":"Manizales | Ingenier\u00eda y Arquitectura | Ingenier\u00eda Industrial",
+      "value":"Manizales | Ingenier\u00eda y Arquitectura | Ingenier\u00eda Industrial"},
+    {
+      "id":"Manizales | Ingenier\u00eda y Arquitectura | Administraci\u00f3n de Empresas",
+      "value":"Manizales | Ingenier\u00eda y Arquitectura | Administraci\u00f3n de Empresas"},
+    {
+      "id":"Palmira | Ingenier\u00eda y Adminsitraci\u00f3n  | Ingenier\u00eda Agr\u00edcola",
+      "value":"Palmira | Ingenier\u00eda y Adminsitraci\u00f3n  | Ingenier\u00eda Agr\u00edcola"},
+    {
+      "id":"Palmira | Ingenier\u00eda y Administraci\u00f3n  | Administraci\u00f3n de Empresas",
+      "value":"Palmira | Ingenier\u00eda y Administraci\u00f3n  | Administraci\u00f3n de Empresas"},
+    {
+      "id":"Palmira | Ingenier\u00eda y Administraci\u00f3n  | Ingenier\u00eda Ambiental",
+      "value":"Palmira | Ingenier\u00eda y Administraci\u00f3n  | Ingenier\u00eda Ambiental"},
+    {
+      "id":"Palmira | Ingenier\u00eda y Administraci\u00f3n  | Ingenier\u00eda Agr\u00edcola",
+      "value":"Palmira | Ingenier\u00eda y Administraci\u00f3n  | Ingenier\u00eda Agr\u00edcola"}]
+}
