@@ -113,7 +113,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives',
   })
 
   .state('app.equivalencias_detalles', {
-    url: '/equivalencias/detalles/:origen_id/:destino_id',
+    url: '/equivalencias/detalles/:equivalenciaId',
     views: {
       'menuContent': {
         templateUrl: 'templates/views/equivalencias/equivalencias_detalles.html',

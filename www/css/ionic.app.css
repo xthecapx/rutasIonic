@@ -10131,3 +10131,18 @@ select.disabled, label.disabled {
 
 .afinidades .tooltip-arrow {
   top: 13%; }
+
+.equivalencias-detalle .header .col {
+  background-color: lightgrey;
+  font-weight: bold; }
+
+.equivalencias-detalle .col {
+  border: solid 1px grey;
+  border-bottom-style: none;
+  border-right-style: none; }
+
+.equivalencias-detalle .col:last-child {
+  border-right: solid 1px grey; }
+
+.equivalencias-detalle .row:last-child .col {
+  border-bottom: solid 1px grey; }

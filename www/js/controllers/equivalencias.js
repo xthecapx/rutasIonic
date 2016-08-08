@@ -79,7 +79,7 @@ angular.module('starter.controllers')
       $scope._selectOpciones.show();
       httpCall({
         uri: "/rutas/api_programas_destino",
-        parameters: {facultad_id: $scope.programa.repeatSelect},
+        parameters: null,
         selectOptions: $scope.opciones.availableOptions,
         nameValue: "programaDestino"
       });
