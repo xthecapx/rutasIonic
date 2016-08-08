@@ -10125,3 +10125,9 @@ select.disabled, label.disabled {
     .loading .dialog .spinner svg {
       top: 10px;
       left: 10px; }
+
+.afinidades .tooltip-circle {
+  bottom: 50%; }
+
+.afinidades .tooltip-arrow {
+  top: 13%; }

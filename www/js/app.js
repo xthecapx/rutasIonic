@@ -93,7 +93,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives',
   })
 
   .state('app.afinidades_detalle', {
-    url: '/afinidades/detalles/:sede_id/:programa_id',
+    url: '/afinidades/detalles/:idProgramaOrigen',
     views: {
       'menuContent': {
         templateUrl: 'templates/views/doble_titulacion/afinidades_detalle.html',

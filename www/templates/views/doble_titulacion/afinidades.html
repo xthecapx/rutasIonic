@@ -1,10 +1,10 @@
-<ion-view view-title="Afinidades">
+<ion-view view-title="Afinidades" class="afinidades">
   <ion-content>
     <div class="row has-header">
       <div class="col">
         <div class="tooltip-parent info message">
           Seleccione los datos para comenzar
-          <tooltip tooltip="Descripción de la doble titulación" tooltip-position="left-badged" class="tooltip-circle ion-information"></tooltip>
+          <tooltip tooltip="El Análisis de Afinidades entre planes de estudio es un insumo que sirve para guiar a los estudiantes en el diseño de posibles rutas curriculares y en las posibilidades de doble titulación." tooltip-position="left-badged" class="tooltip-circle ion-information"></tooltip>
         </div>
 
         <div class="list">
@@ -34,7 +34,7 @@
         </div>
         <button
           class="button button-full button-balanced"
-          ui-sref="app.afinidades_detalle({sede_id: sede.repeatSelect, programa_id: programa.repeatSelect})"
+          ui-sref="app.afinidades_detalle({idProgramaOrigen: programa.repeatSelect})"
           ng-if="disable.button">
           Ver afinidades
         </button>

@@ -12,14 +12,14 @@ angular.module('starter.controllers')
 
       _call.selectOptions.length = 0;
       console.log(_call.nameValue);
-      if (_call.nameValue === "opciones") {
+      if (_call.nameValue === "programaDestino") {
         _scope._selectOpciones.hide();
       }
 
       angular.forEach(response.data.data, function(value, key) {
         _call.selectOptions.push({
           id: value.id,
-          name: value.value
+          name: value[_call.nameValue]
         });
       });
     };
@@ -66,10 +66,10 @@ angular.module('starter.controllers')
   selectConstructor(["programa", "opciones"]);
 
   httpCall({
-    uri: "/rutas/api_equivalencias_programas",
+    uri: "/rutas/api_programas_origen",
     parameters: null,
     selectOptions: $scope.programa.availableOptions,
-    nameValue: "programa"
+    nameValue: "programaOrigen"
   });
 
   /* Watchers */
@@ -78,10 +78,10 @@ angular.module('starter.controllers')
     if (newValue[0] !== oldValue[0]) {
       $scope._selectOpciones.show();
       httpCall({
-        uri: "/rutas/api_equivalencias_opciones",
+        uri: "/rutas/api_programas_destino",
         parameters: {facultad_id: $scope.programa.repeatSelect},
         selectOptions: $scope.opciones.availableOptions,
-        nameValue: "opciones"
+        nameValue: "programaDestino"
       });
     }
 

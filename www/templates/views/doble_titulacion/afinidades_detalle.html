@@ -1,27 +1,21 @@
-<ion-view view-title="Afinidades">
+<ion-view view-title="{{afinidades[0].programaOrigen}}">
   <ion-content class="afinidades-detalle">
-    <div class="list card">
-      <div class="item item-divider">
-        Bogotá | Contaduría Pública
-      </div>
-
-      <div class="item item-text-wrap">
-        <p><strong>CREDITOS</strong></p>
-        <p><strong>Exigidos Destino:</strong> 167</p>
-        <p><strong>Comunes:</strong> 271</p>
-        <p><strong>Excedentes:</strong> 104</p>
+    <div class="loading" ng-if="loading">
+      <div class="dialog">
+        <ion-spinner icon="spiral"></ion-spinner>
+        <span>Cargando ...</span>
       </div>
     </div>
-    <div class="list card">
+    <div class="list card" ng-repeat="item in afinidades">
       <div class="item item-divider">
-        Bogotá | Contaduría Pública
+        {{item.programaDestino}}
       </div>
 
       <div class="item item-text-wrap">
         <p><strong>CREDITOS</strong></p>
-        <p><strong>Exigidos Destino:</strong> 167</p>
-        <p><strong>Comunes:</strong> 271</p>
-        <p><strong>Excedentes:</strong> 104</p>
+        <p><strong>Exigidos Destino:</strong> {{item.creditosExigidosDestino}}</p>
+        <p><strong>Comunes:</strong> {{item.comunOrigenDestino}}</p>
+        <p><strong>Excedentes:</strong> {{item.errorOrigenDestino}}</p>
       </div>
     </div>
   </ion-content>

@@ -509,116 +509,76 @@
       "message": "200 OK",
       "data": [
         {
-          "id": "Bogotá | Ciencias Económicas | Economía",
+          "id": 1,
           "value": "Bogotá | Ciencias Económicas | Economía"
         },
         {
-          "id": "Bogotá | Ingeniería | Ingeniería Eléctrica",
+          "id": 2,
           "value": "Bogotá | Ingeniería | Ingeniería Eléctrica"
         },
         {
-          "id": "Bogotá | Ingeniería | Ingeniería Electrónica",
+          "id": 3,
           "value": "Bogotá | Ingeniería | Ingeniería Electrónica"
         },
         {
-          "id": "Bogotá | Ingeniería | Ingeniería Mecatronica",
+          "id": 4,
           "value": "Bogotá | Ingeniería | Ingeniería Mecatronica"
         },
         {
-          "id": "Bogotá | Ingeniería | Ingeniería Agricola ",
+          "id": 5,
           "value": "Bogotá | Ingeniería | Ingeniería Agricola "
         },
         {
-          "id": "Bogotá | Ciencias Humanas | Lingüística",
+          "id": 6,
           "value": "Bogotá | Ciencias Humanas | Lingüística"
         },
         {
-          "id": "Bogotá | Ciencias Humanas | Filología e Idiomas- Inglés",
+          "id": 7,
           "value": "Bogotá | Ciencias Humanas | Filología e Idiomas- Inglés"
         },
         {
-          "id": "Bogotá | Ciencias Humanas | Estudios Literarios",
+          "id": 8,
           "value": "Bogotá | Ciencias Humanas | Estudios Literarios"
         },
         {
-          "id": "Bogotá | Ciencias Humanas | Antropologia",
+          "id": 9,
           "value": "Bogotá | Ciencias Humanas | Antropologia"
         },
         {
-          "id": "Bogotá | Ciencias Humanas | Artes Plasticas",
+          "id": 10,
           "value": "Bogotá | Ciencias Humanas | Artes Plasticas"
         },
         {
-          "id": "Medellín | Ciencias Agrarias | Ingeniería Forestal ",
+          "id": 11,
           "value": "Medellín | Ciencias Agrarias | Ingeniería Forestal "
         },
         {
-          "id": "Medellín | Arquitectura | Construcción",
+          "id": 12,
           "value": "Medellín | Arquitectura | Construcción"
         },
         {
-          "id": "Medellín | Minas | Ingeniería Administrativa",
+          "id": 13,
           "value": "Medellín | Minas | Ingeniería Administrativa"
         },
         {
-          "id": "Medellín | Minas | Ingeniería Química",
+          "id": 14,
           "value": "Medellín | Minas | Ingeniería Química"
         },
         {
-          "id": "Medellín | Ciencias Agrarias | Ingeniería Agrícola",
+          "id": 15,
           "value": "Medellín | Ciencias Agrarias | Ingeniería Agrícola"
         },
         {
-          "id": "Medellín | Ciencias Humanas y Económicas | Ciencia Política",
+          "id": 16,
           "value": "Medellín | Ciencias Humanas y Económicas | Ciencia Política"
         },
         {
-          "id": "Manizales | Ingeniería y Arquitectura | Ingeniería Química",
+          "id": 17,
           "value": "Manizales | Ingeniería y Arquitectura | Ingeniería Química"
         },
         {
-          "id": "Manizales | Ingeniería y Arquitectura | Ingeniería Eléctrica",
+          "id": 18,
           "value": "Manizales | Ingeniería y Arquitectura | Ingeniería Eléctrica"
-        },
-        {
-          "id": "Manizales | Ingeniería y Arquitectura | Ingeniería Electrónica",
-          "value": "Manizales | Ingeniería y Arquitectura | Ingeniería Electrónica"
-        },
-        {
-          "id": "Manizales | Ingeniería y Arquitectura | Ingeniería Civil",
-          "value": "Manizales | Ingeniería y Arquitectura | Ingeniería Civil"
-        },
-        {
-          "id": "Manizales | Ingeniería y Arquitectura | Ingenería Industrial",
-          "value": "Manizales | Ingeniería y Arquitectura | Ingenería Industrial"
-        },
-        {
-          "id": "Manizales | Ciencias Exáctas y Naturales | Ingeniería Física",
-          "value": "Manizales | Ciencias Exáctas y Naturales | Ingeniería Física"
-        },
-        {
-          "id": "Manizales | Ingeniería y Arquitectura | Ingeniería Industrial",
-          "value": "Manizales | Ingeniería y Arquitectura | Ingeniería Industrial"
-        },
-        {
-          "id": "Manizales | Ingeniería y Arquitectura | Administración de Empresas",
-          "value": "Manizales | Ingeniería y Arquitectura | Administración de Empresas"
-        },
-        {
-          "id": "Palmira | Ingeniería y Adminsitración  | Ingeniería Agrícola",
-          "value": "Palmira | Ingeniería y Adminsitración  | Ingeniería Agrícola"
-        },
-        {
-          "id": "Palmira | Ingeniería y Administración  | Administración de Empresas",
-          "value": "Palmira | Ingeniería y Administración  | Administración de Empresas"
-        },
-        {
-          "id": "Palmira | Ingeniería y Administración  | Ingeniería Ambiental",
-          "value": "Palmira | Ingeniería y Administración  | Ingeniería Ambiental"
-        },
-        {
-          "id": "Palmira | Ingeniería y Administración  | Ingeniería Agrícola",
-          "value": "Palmira | Ingeniería y Administración  | Ingeniería Agrícola"
         }
       ]
     }
