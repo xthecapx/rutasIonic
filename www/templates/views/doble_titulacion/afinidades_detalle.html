@@ -6,17 +6,18 @@
         <span>Cargando ...</span>
       </div>
     </div>
-    <div class="list card" ng-repeat="item in afinidades">
-      <div class="item item-divider">
+    <div ng-repeat="item in afinidades">
+      <ion-item class="item-balanced" ng-click="toggleGroup(item)" ng-class="{active: isGroupShown(item)}">
+        <i class="icon" ng-class="isGroupShown(item) ? 'ion-arrow-up-b' : 'ion-arrow-down-b'"></i>
         {{item.programaDestino}}
-      </div>
-
-      <div class="item item-text-wrap">
+      </ion-item>
+      <ion-item class="item-accordion" ng-show="isGroupShown(item)">
         <p><strong>CREDITOS</strong></p>
         <p><strong>Exigidos Destino:</strong> {{item.creditosExigidosDestino}}</p>
         <p><strong>Comunes:</strong> {{item.comunOrigenDestino}}</p>
         <p><strong>Excedentes:</strong> {{item.errorOrigenDestino}}</p>
-      </div>
+      </ion-item>
     </div>
+
   </ion-content>
 </ion-view>

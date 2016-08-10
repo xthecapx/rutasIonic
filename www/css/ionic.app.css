@@ -10132,6 +10132,16 @@ select.disabled, label.disabled {
 .afinidades .tooltip-arrow {
   top: 13%; }
 
+.afinidades-detalle .item-accordion {
+  transition: 0.1s all linear; }
+
+.afinidades-detalle .item-accordion.ng-hide {
+  line-height: 0px; }
+
+.afinidades-detalle .item-accordion.ng-hide-add,
+.afinidades-detalle .item-accordion.ng-hide-remove {
+  display: block !important; }
+
 .equivalencias-detalle .header .col {
   background-color: lightgrey;
   font-weight: bold; }
@@ -10146,3 +10156,9 @@ select.disabled, label.disabled {
 
 .equivalencias-detalle .row:last-child .col {
   border-bottom: solid 1px grey; }
+
+.equivalencias-detalle .card i {
+  float: right; }
+
+.equivalencias-detalle .card .col {
+  text-align: center; }

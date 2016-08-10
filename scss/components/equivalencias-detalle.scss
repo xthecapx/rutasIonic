@@ -17,4 +17,14 @@
   .row:last-child .col {
       border-bottom: solid 1px grey;
   }
+
+  .card {
+    i {
+      float: right;
+    }
+
+    .col {
+      text-align: center;
+    }
+  }
 }

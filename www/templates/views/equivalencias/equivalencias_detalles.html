@@ -1,25 +1,50 @@
 <ion-view view-title="{{origen[1]}}" class="equivalencias-detalle">
   <ion-content class="afinidades-detalle">
+    <!-- loader -->
     <div class="loading" ng-if="loading">
       <div class="dialog">
         <ion-spinner icon="spiral"></ion-spinner>
         <span>Cargando ...</span>
       </div>
     </div>
-    <div class="list card">
-      <div class="item item-divider">
-        Equivalencias
-      </div>
-      <div class="item item-text-wrap">
-        <div class="row header">
-          <div class="col">{{origen[2]}}</div>
-          <div class="col">{{destino[2]}}</div>
+    <!-- / loader -->
+    <!-- Flipper -->
+    <div class="list flipper">
+        <!-- front-card -->
+        <div class="card front-card">
+          <div class="item item-divider item-text-wrap" ng-click="flipper($event);">
+            Equivalencias (resumen) <i class="icon ion-arrow-swap"></i>
+          </div>
+
+          <div class="item item-text-wrap">
+            <div class="row header">
+              <div class="col">De {{origen[2]}} a {{destino[2]}}</div>
+            </div>
+            <div class="row" ng-repeat="item in equivalencias">
+              <div class="col">{{item.codigoAsignaturaOrigen}}</div>
+              <div class="col">{{item.codigoAsignaturaDestino}}</div>
+            </div>
+          </div>
         </div>
-        <div class="row" ng-repeat="item in equivalencias">
-          <div class="col"><strong>{{item.codigoAsignaturaOrigen}}</strong>, {{item.asignaturaOrigen}}</div>
-          <div class="col"><strong>{{item.codigoAsignaturaDestino}}</strong>, {{item.asignaturaDestino}}</div>
+        <!-- / front-card -->
+        <!-- back-card -->
+        <div class="card back-card">
+          <div class="item item-divider item-text-wrap back" ng-click="flipper($event);">
+            Equivalencias <i class="icon ion-arrow-swap"></i>
+          </div>
+
+          <div class="item item-text-wrap">
+            <div class="row header">
+              <div class="col">De {{origen[2]}} a {{destino[2]}}</div>
+            </div>
+            <div class="row" ng-repeat="item in equivalencias">
+              <div class="col"><strong>{{item.codigoAsignaturaOrigen}}</strong><br> {{item.asignaturaOrigen}}</div>
+              <div class="col"><strong>{{item.codigoAsignaturaDestino}}</strong><br> {{item.asignaturaDestino}}</div>
+            </div>
+          </div>
         </div>
-      </div>
+        <!-- / back-card -->
     </div>
+    <!-- / Flipper -->
   </ion-content>
 </ion-view>

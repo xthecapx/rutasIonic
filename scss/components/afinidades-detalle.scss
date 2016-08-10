@@ -10,5 +10,14 @@
 
 
 .afinidades-detalle {
-
+  .item-accordion {
+    transition: 0.1s all linear;
+  }
+  .item-accordion.ng-hide {
+    line-height: 0px;
+  }
+  .item-accordion.ng-hide-add,
+  .item-accordion.ng-hide-remove {
+    display: block !important;
+  }
 }
