@@ -10,7 +10,7 @@
         <div class="list">
           <label class="item item-input item-select">
             <div class="input-label">
-              Programa
+              De
             </div>
             <select name="programa" id="programa" ng-model="programa.repeatSelect">
               <option ng-repeat="option in programa.availableOptions" value="{{option.id}}">{{option.name}}</option>
@@ -20,7 +20,7 @@
             class="item item-input item-select"
             ng-class="{disabled:!disable.opciones}">
             <div class="input-label">
-              Opción de doble titulación <ion-spinner icon="ripple" ng-if="loader.opciones"></ion-spinner>
+              A <ion-spinner icon="ripple" ng-if="loader.opciones"></ion-spinner>
             </div>
             <select
               name="opciones"

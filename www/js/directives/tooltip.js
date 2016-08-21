@@ -20,7 +20,7 @@ angular.module('starter.directives', [])
         scope.tipClass.push('tooltip-down');
        }
 
-       $document.find('.tooltip-parent').append(tip);
+      element.after(tip);
 
        element.bind('click', function (e) {
          tip.toggleClass(tipActiveClassName);
