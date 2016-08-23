@@ -1,0 +1,57 @@
+.ionic-table {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0px;
+  white-space: nowrap;
+  font-size: 16px;
+
+  .fila {
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid black;
+    background: white;
+
+    &.titulo {
+      background: $button-balanced-bg;
+      min-height: 30px;
+      color: white;
+      font-weight: 500;
+    }
+  }
+
+  .columna {
+    text-align: left;
+    padding: 8px 3%;
+    vertical-align: middle;
+    white-space: normal;
+    display: inline-block;
+
+    &.columna-30 {
+      width: 30%;
+    }
+
+    &.columna-60 {
+      width: 60%;
+    }
+
+    &.columna-10 {
+      width: 10%;
+    }
+
+    &.columna-100 {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .offset {
+    text-align: left;
+    padding: 0;
+  }
+}

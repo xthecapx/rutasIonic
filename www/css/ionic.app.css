@@ -10126,6 +10126,45 @@ select.disabled, label.disabled {
       top: 10px;
       left: 10px; }
 
+.ionic-table {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0px;
+  white-space: nowrap;
+  font-size: 16px; }
+  .ionic-table .fila {
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid black;
+    background: white; }
+    .ionic-table .fila.titulo {
+      background: #009638;
+      min-height: 30px;
+      color: white;
+      font-weight: 500; }
+  .ionic-table .columna {
+    text-align: left;
+    padding: 8px 3%;
+    vertical-align: middle;
+    white-space: normal;
+    display: inline-block; }
+    .ionic-table .columna.columna-30 {
+      width: 30%; }
+    .ionic-table .columna.columna-60 {
+      width: 60%; }
+    .ionic-table .columna.columna-10 {
+      width: 10%; }
+    .ionic-table .columna.columna-100 {
+      display: block;
+      width: 100%; }
+  .ionic-table .center {
+    text-align: center; }
+  .ionic-table .offset {
+    text-align: left;
+    padding: 0; }
+
 .afinidades .tooltip-circle {
   bottom: 65%; }
 
