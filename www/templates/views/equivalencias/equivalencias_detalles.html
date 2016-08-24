@@ -8,43 +8,27 @@
       </div>
     </div>
     <!-- / loader -->
-    <!-- Flipper -->
-    <div class="list flipper">
-        <!-- front-card -->
-        <div class="card front-card">
-          <div class="item item-divider item-text-wrap" ng-click="flipper($event);">
-            Equivalencias (resumen) <i class="icon ion-arrow-swap"></i>
+    <!-- List -->
+    <div class="list">
+        <!-- card -->
+        <div class="card">
+          <div class="item item-divider item-text-wrap">
+            Equivalencias
           </div>
 
-          <div class="item item-text-wrap">
+          <div class="item item-text-wrap no-padding">
             <div class="row header">
-              <div class="col">De {{origen[2]}} a {{destino[2]}}</div>
+              <div class="col">{{origen[2]}}</div>
+              <div class="col">{{destino[2]}}</div>
             </div>
             <div class="row" ng-repeat="item in equivalencias">
-              <div class="col">{{item.codigoAsignaturaOrigen}}</div>
-              <div class="col">{{item.codigoAsignaturaDestino}}</div>
+              <div class="col">{{item.asignaturaOrigen}}<br><small>[{{item.codigoAsignaturaOrigen}}]</small></div>
+              <div class="col">{{item.asignaturaDestino}}<br><small>[{{item.codigoAsignaturaDestino}}]</small></div>
             </div>
           </div>
         </div>
-        <!-- / front-card -->
-        <!-- back-card -->
-        <div class="card back-card">
-          <div class="item item-divider item-text-wrap back" ng-click="flipper($event);">
-            Equivalencias <i class="icon ion-arrow-swap"></i>
-          </div>
-
-          <div class="item item-text-wrap">
-            <div class="row header">
-              <div class="col">De {{origen[2]}} a {{destino[2]}}</div>
-            </div>
-            <div class="row" ng-repeat="item in equivalencias">
-              <div class="col"><strong>{{item.codigoAsignaturaOrigen}}</strong><br> {{item.asignaturaOrigen}}</div>
-              <div class="col"><strong>{{item.codigoAsignaturaDestino}}</strong><br> {{item.asignaturaDestino}}</div>
-            </div>
-          </div>
-        </div>
-        <!-- / back-card -->
+        <!-- / card -->
     </div>
-    <!-- / Flipper -->
+    <!-- / List -->
   </ion-content>
 </ion-view>

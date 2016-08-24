@@ -10181,23 +10181,28 @@ select.disabled, label.disabled {
 .afinidades-detalle .item-accordion.ng-hide-remove {
   display: block !important; }
 
+.equivalencias-detalle .row {
+  border-bottom: solid 1px #009638;
+  margin: 0;
+  padding: 0; }
+
 .equivalencias-detalle .header .col {
-  background-color: lightgrey;
-  font-weight: bold; }
+  background: #009638;
+  color: white;
+  font-weight: bold;
+  text-align: left; }
 
 .equivalencias-detalle .col {
-  border: solid 1px grey;
-  border-bottom-style: none;
-  border-right-style: none; }
+  text-align: left; }
+
+.equivalencias-detalle .col:first-child {
+  border-left: solid 2px #009638; }
 
 .equivalencias-detalle .col:last-child {
-  border-right: solid 1px grey; }
+  border-right: solid 2px #009638; }
 
-.equivalencias-detalle .row:last-child .col {
-  border-bottom: solid 1px grey; }
+.equivalencias-detalle .row:last-child {
+  border-bottom: solid 2px #009638; }
 
-.equivalencias-detalle .card i {
-  float: right; }
-
-.equivalencias-detalle .card .col {
-  text-align: center; }
+.equivalencias-detalle .row:nth-child(2n+3) {
+  background: rgba(80, 153, 46, 0.3); }

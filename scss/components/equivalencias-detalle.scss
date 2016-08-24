@@ -1,30 +1,37 @@
 .equivalencias-detalle {
+  
+  .row {
+    border-bottom: solid 1px $balanced;
+    margin: 0;
+    padding: 0;
+  }
+
   .header .col {
-      background-color:lightgrey;
-      font-weight: bold;
+    background: $balanced;
+    color: white;
+    font-weight: bold;
+    text-align: left;
   }
 
   .col {
-      border: solid 1px grey;
-      border-bottom-style: none;
-      border-right-style: none;
+    text-align: left;
+  }
+
+  .col:first-child {
+    border-left: solid 2px $balanced;
   }
 
   .col:last-child {
-      border-right: solid 1px grey;
+    border-right: solid 2px $balanced;
+    //border-left: solid 1px $balanced;
   }
 
-  .row:last-child .col {
-      border-bottom: solid 1px grey;
+  .row:last-child {
+    border-bottom: solid 2px $balanced;
   }
 
-  .card {
-    i {
-      float: right;
-    }
-
-    .col {
-      text-align: center;
-    }
+  .row:nth-child(2n+3) {
+    background: rgba(80,153,46,0.3);
   }
+
 }
