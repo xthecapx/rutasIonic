@@ -10181,6 +10181,17 @@ select.disabled, label.disabled {
 .afinidades-detalle .item-accordion.ng-hide-remove {
   display: block !important; }
 
+.afinidades-detalle .offset span {
+  display: block;
+  -webkit-transform: rotateX(180deg);
+  -moz-transform: rotateX(180deg);
+  transform: rotateX(180deg); }
+  .afinidades-detalle .offset span.rotate-icon {
+    display: block;
+    -webkit-transform: rotateX(0deg);
+    -moz-transform: rotateX(0deg);
+    transform: rotateX(0deg); }
+
 .equivalencias-detalle .row {
   border-bottom: solid 1px #009638;
   margin: 0;

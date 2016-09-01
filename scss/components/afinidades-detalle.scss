@@ -8,7 +8,6 @@
   }
 }
 
-
 .afinidades-detalle {
   .item-accordion {
     transition: 0.1s all linear;
@@ -19,5 +18,19 @@
   .item-accordion.ng-hide-add,
   .item-accordion.ng-hide-remove {
     display: block !important;
+  }
+
+  .offset span {
+    display: block;
+    -webkit-transform: rotateX(180deg);
+    -moz-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+
+    &.rotate-icon {
+      display: block;
+      -webkit-transform: rotateX(0deg);
+      -moz-transform: rotateX(0deg);
+      transform: rotateX(0deg);    
+    }
   }
 }

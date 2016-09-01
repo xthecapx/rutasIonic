@@ -13,18 +13,18 @@
       </div>
       <div class="fila titulo">
         <div class="columna columna-60 center">Destino</div>
-        <div class="columna columna-30 center">Créditos Excedentes</div>
-        <div class="columna columna-10 offset"></div>
+        <div class="columna columna-30 center" ng-click="reverse=!reverse;">Créditos Excedentes</div>
+        <div class="columna columna-10 offset" ng-click="reverse=!reverse;"><span class="ion-android-funnel" ng-class="reverse ? 'rotate-icon': ''"></span></div>
       </div>
 
-      <div class="fila" ng-repeat="item in afinidades" ng-click="toggleGroup(item)" ng-class="{active: isGroupShown(item)}">
+      <div class="fila" ng-repeat="item in afinidades | orderBy:sorterFunc:reverse" ng-click="toggleGroup(item)" ng-class="{active: isGroupShown(item)}">
         <div class="columna columna-60">{{item.programaDestino}}</div>
-        <div class="columna columna-30 center">{{item.errorOrigenDestino}}</div>
+        <div class="columna columna-30 center">{{item.errorOrigenDestino | number}}</div>
         <div class="columna columna-10 offset"><i class="icon" ng-class="isGroupShown(item) ? 'ion-arrow-up-b' : 'ion-arrow-down-b'"></i></div>
         <div class="columna columna-100 item-accordion" ng-show="isGroupShown(item)">
           <p><strong>Detalles:</strong></p>
           <p><strong>Creditos comunes:</strong> {{item.comunOrigenDestino}}</p>
-          <p><strong>Créditos excedentes:</strong> {{item.errorOrigenDestino}}</p>
+          <p><strong>Créditos excedentes:</strong> {{item.errorOrigenDestino  | number}}</p>
         </div>
       </div>
     </div>
