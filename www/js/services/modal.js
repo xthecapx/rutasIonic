@@ -11,7 +11,8 @@ angular
       scope: $scope,
       animation: 'slide-in-up',
       focusFirstInput: true,
-      hardwareBackButtonClose: false
+      hardwareBackButtonClose: false,
+      backdropClickToClose: false
     }).then(function(modal) {
       $scope.modal = modal;
       return modal;
