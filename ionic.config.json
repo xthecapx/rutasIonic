@@ -4,7 +4,7 @@
   "proxies": [
     {
       "path": "/api",
-      "proxyUrl": "http://retalapp.com/rutas"
+      "proxyUrl": "http://www.pregrado.unal.edu.co/rutas/admin"
     }
   ],
   "gulpStartupTasks": [
