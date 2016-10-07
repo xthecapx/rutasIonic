@@ -5,7 +5,7 @@ angular.module('starter.controllers', [])
   url: 'api', //Ionic serve to test real api rest
   //url: '', // gulp serve to run Mock data
   client_id: "android",
-  client_secret: "kKJYWBfTguREWTna7eYkzeqtmTYfhGto"
+  client_secret: "RN0NhUJOHqh55OrEjMd8RkBhsZPdteeB"
 })
 
 .controller('AppController', ['$scope', function($scope) {
