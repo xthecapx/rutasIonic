@@ -1,6 +1,33 @@
 [
   {
-    "url": "\\rutas\\api_afinidades_programa.GET.response.200.json",
+    "url": "\\rutas\\api_afinidades.GET.response.200.json",
+    "res": {
+      "status": 200,
+      "error": null,
+      "success": true,
+      "message": "200 OK",
+      "data": [
+        {
+          "id": 2,
+          "value": "Bogota"
+        },
+        {
+          "id": 4,
+          "value": "Manizales"
+        },
+        {
+          "id": 3,
+          "value": "Medellín"
+        },
+        {
+          "id": 5,
+          "value": "Palmira"
+        }
+      ]
+    }
+  },
+  {
+    "url": "\\rutas\\api_afinidades_origen.GET.response.200.json",
     "res": {
       "status": 200,
       "error": null,
@@ -34,33 +61,6 @@
         {
           "id": 4023,
           "value": "Ingeniería Quimica"
-        }
-      ]
-    }
-  },
-  {
-    "url": "\\rutas\\api_afinidades_sedes.GET.response.200.json",
-    "res": {
-      "status": 200,
-      "error": null,
-      "success": true,
-      "message": "200 OK",
-      "data": [
-        {
-          "id": 2,
-          "value": "Bogota"
-        },
-        {
-          "id": 4,
-          "value": "Manizales"
-        },
-        {
-          "id": 3,
-          "value": "Medellín"
-        },
-        {
-          "id": 5,
-          "value": "Palmira"
         }
       ]
     }
@@ -482,108 +482,6 @@
     }
   },
   {
-    "url": "\\rutas\\api_equivalencias_opciones.GET.response.200.json",
-    "res": {
-      "status": 200,
-      "error": null,
-      "success": true,
-      "message": "200 OK",
-      "data": [
-        {
-          "id": 1,
-          "value": "Bogotá | Ingeniería | Ingeniería Civil"
-        },
-        {
-          "id": 2,
-          "value": "Palmira | Ingeniería y Administración  | Ingeniería  Ambiental"
-        }
-      ]
-    }
-  },
-  {
-    "url": "\\rutas\\api_equivalencias_programas.GET.response.200.json",
-    "res": {
-      "status": 200,
-      "error": null,
-      "success": true,
-      "message": "200 OK",
-      "data": [
-        {
-          "id": 1,
-          "value": "Bogotá | Ciencias Económicas | Economía"
-        },
-        {
-          "id": 2,
-          "value": "Bogotá | Ingeniería | Ingeniería Eléctrica"
-        },
-        {
-          "id": 3,
-          "value": "Bogotá | Ingeniería | Ingeniería Electrónica"
-        },
-        {
-          "id": 4,
-          "value": "Bogotá | Ingeniería | Ingeniería Mecatronica"
-        },
-        {
-          "id": 5,
-          "value": "Bogotá | Ingeniería | Ingeniería Agricola "
-        },
-        {
-          "id": 6,
-          "value": "Bogotá | Ciencias Humanas | Lingüística"
-        },
-        {
-          "id": 7,
-          "value": "Bogotá | Ciencias Humanas | Filología e Idiomas- Inglés"
-        },
-        {
-          "id": 8,
-          "value": "Bogotá | Ciencias Humanas | Estudios Literarios"
-        },
-        {
-          "id": 9,
-          "value": "Bogotá | Ciencias Humanas | Antropologia"
-        },
-        {
-          "id": 10,
-          "value": "Bogotá | Ciencias Humanas | Artes Plasticas"
-        },
-        {
-          "id": 11,
-          "value": "Medellín | Ciencias Agrarias | Ingeniería Forestal "
-        },
-        {
-          "id": 12,
-          "value": "Medellín | Arquitectura | Construcción"
-        },
-        {
-          "id": 13,
-          "value": "Medellín | Minas | Ingeniería Administrativa"
-        },
-        {
-          "id": 14,
-          "value": "Medellín | Minas | Ingeniería Química"
-        },
-        {
-          "id": 15,
-          "value": "Medellín | Ciencias Agrarias | Ingeniería Agrícola"
-        },
-        {
-          "id": 16,
-          "value": "Medellín | Ciencias Humanas y Económicas | Ciencia Política"
-        },
-        {
-          "id": 17,
-          "value": "Manizales | Ingeniería y Arquitectura | Ingeniería Química"
-        },
-        {
-          "id": 18,
-          "value": "Manizales | Ingeniería y Arquitectura | Ingeniería Eléctrica"
-        }
-      ]
-    }
-  },
-  {
     "url": "\\rutas\\api_facultades.GET.response.200.json",
     "res": {
       "status": 200,
@@ -923,6 +821,108 @@
               "descripcion": "Descripción pendiente"
             }
           ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "\\rutas\\api_programas_destino.GET.response.200.json",
+    "res": {
+      "status": 200,
+      "error": null,
+      "success": true,
+      "message": "200 OK",
+      "data": [
+        {
+          "id": 1,
+          "value": "Bogotá | Ingeniería | Ingeniería Civil"
+        },
+        {
+          "id": 2,
+          "value": "Palmira | Ingeniería y Administración  | Ingeniería  Ambiental"
+        }
+      ]
+    }
+  },
+  {
+    "url": "\\rutas\\api_programas_origen.GET.response.200.json",
+    "res": {
+      "status": 200,
+      "error": null,
+      "success": true,
+      "message": "200 OK",
+      "data": [
+        {
+          "id": 1,
+          "value": "Bogotá | Ciencias Económicas | Economía"
+        },
+        {
+          "id": 2,
+          "value": "Bogotá | Ingeniería | Ingeniería Eléctrica"
+        },
+        {
+          "id": 3,
+          "value": "Bogotá | Ingeniería | Ingeniería Electrónica"
+        },
+        {
+          "id": 4,
+          "value": "Bogotá | Ingeniería | Ingeniería Mecatronica"
+        },
+        {
+          "id": 5,
+          "value": "Bogotá | Ingeniería | Ingeniería Agricola "
+        },
+        {
+          "id": 6,
+          "value": "Bogotá | Ciencias Humanas | Lingüística"
+        },
+        {
+          "id": 7,
+          "value": "Bogotá | Ciencias Humanas | Filología e Idiomas- Inglés"
+        },
+        {
+          "id": 8,
+          "value": "Bogotá | Ciencias Humanas | Estudios Literarios"
+        },
+        {
+          "id": 9,
+          "value": "Bogotá | Ciencias Humanas | Antropologia"
+        },
+        {
+          "id": 10,
+          "value": "Bogotá | Ciencias Humanas | Artes Plasticas"
+        },
+        {
+          "id": 11,
+          "value": "Medellín | Ciencias Agrarias | Ingeniería Forestal "
+        },
+        {
+          "id": 12,
+          "value": "Medellín | Arquitectura | Construcción"
+        },
+        {
+          "id": 13,
+          "value": "Medellín | Minas | Ingeniería Administrativa"
+        },
+        {
+          "id": 14,
+          "value": "Medellín | Minas | Ingeniería Química"
+        },
+        {
+          "id": 15,
+          "value": "Medellín | Ciencias Agrarias | Ingeniería Agrícola"
+        },
+        {
+          "id": 16,
+          "value": "Medellín | Ciencias Humanas y Económicas | Ciencia Política"
+        },
+        {
+          "id": 17,
+          "value": "Manizales | Ingeniería y Arquitectura | Ingeniería Química"
+        },
+        {
+          "id": 18,
+          "value": "Manizales | Ingeniería y Arquitectura | Ingeniería Eléctrica"
         }
       ]
     }

@@ -21,3 +21,32 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 @import "styles";
+
+
+@font-face {
+font-family: AncizarSerif;
+src: url("#{$ionicons-font-path}/ancizarserifregular.otf") format("opentype");
+}
+
+@font-face {
+font-family: AncizarSerif;
+font-weight: bold;
+src: url("#{$ionicons-font-path}/ancizarserifbold.otf") format("opentype");
+}
+
+@font-face {
+font-family: AncizarSerif;
+font-weight: normal;
+src: url("#{$ionicons-font-path}/ancizarseriflight.otf") format("opentype");
+}
+
+@font-face {
+font-family: AncizarSans;
+src: url("#{$ionicons-font-path}/ancizarsansregular.otf") format("opentype");
+}
+
+@font-face {
+font-family: AncizarSans;
+font-weight: bold;
+src: url("#{$ionicons-font-path}/ancizarsansbold.otf") format("opentype");
+}
