@@ -13,13 +13,14 @@ angular.module('starter.controllers')
 
   $scope.youtubeParams = {
     key: 'AIzaSyCp_NZfdb9Shi99YcMitboLSQ-ibcrQr4Y',
-    type: 'video',
+    //type: 'video',
     maxResults: '5',
     part: 'id,snippet', 
-    q: '',
-    videoCategoryId: '27',
-    order: 'date',
-    channelId: 'UCedNZCrQy7ZgtFKh8mLMrbA',
+    //q: '',
+    //videoCategoryId: '27',
+    //order: 'date',
+    //channelId: 'UCedNZCrQy7ZgtFKh8mLMrbA',
+    playlistId: 'PL8Tm8UiPdgY5wbW4eTXLaSTYxhmnZi9Gx'
   };
 
   $scope.playerVars = {
@@ -28,7 +29,7 @@ angular.module('starter.controllers')
     modestbranding: 0,
   }
 
-  $http.get('https://www.googleapis.com/youtube/v3/search', {params:$scope.youtubeParams}).success(function(response){
+  $http.get('https://www.googleapis.com/youtube/v3/playlistItems', {params:$scope.youtubeParams}).success(function(response){
     angular.forEach(response.items, function(child) {
       $scope.videos.push(child);
     });

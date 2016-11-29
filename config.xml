@@ -2,16 +2,10 @@
 <widget id="com.ionicframework.rutasapp765666" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Aplicativo de Rutas</name>
   <description>
-
-
     Aplicativo de rutas Universidad Nacional
   </description>
   <author email="ing.cristian.marquez@gmail.com" href="http://example.com.com/">
-
-
     Cristian Marquez
-
-
   </author>
   <content src="index.html"/>
   <preference name="webviewbounce" value="false"/>
@@ -32,6 +26,7 @@
   <access origin="*"/>
   <allow-navigation href="*"/>
   <allow-intent href="*"/>
+  <allow-navigation href="https://*youtube.com/*"/>
   <platform name="ios">
     <icon src="resources/ios/icon/icon.png" width="57" height="57"/>
     <icon src="resources/ios/icon/icon@2x.png" width="114" height="114"/>
