@@ -62,7 +62,7 @@ img {
 
   .card {
     li {
-      padding: 5px 15px;
+      padding: 5px 15px; 
     }
   }
 }
@@ -87,3 +87,4 @@ select, label {
 @import "widgets/table"; 
 @import "components/afinidades-detalle";
 @import "components/equivalencias-detalle";
+@import "components/tutoriales";

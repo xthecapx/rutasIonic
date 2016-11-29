@@ -10219,6 +10219,25 @@ select.disabled, label.disabled {
 .equivalencias-detalle .row:nth-child(2n+3) {
   background: rgba(80, 153, 46, 0.3); }
 
+.tutoriales .embed-responsive {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden; }
+
+.tutoriales .embed-responsive.embed-responsive-16by9 {
+  padding-bottom: 56.25%; }
+
+.tutoriales .embed-responsive-item {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0; }
+
 @font-face {
   font-family: AncizarSerif;
   src: url("../lib/ionic/fonts/ancizarserifregular.otf") format("opentype"); }
