@@ -24,8 +24,8 @@
     <param name="ios-package" onload="true" value="IonicKeyboard"/>
   </feature>
   <access origin="*"/>
-  <allow-navigation href="http://*unal.edu.co/*"/>
-  <allow-intent href="http://*unal.edu.co/*"/>
+  <allow-navigation href="*://pregrado.unal.edu.co/*"/>
+  <allow-intent href="*://pregrado.unal.edu.co/*"/>
   <allow-navigation href="https://*youtube.com/*"/>
   <allow-intent href="https://*youtube.com/*"/>
   <allow-navigation href="https://*googleapis.com/*"/>

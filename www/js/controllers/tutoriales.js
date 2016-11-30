@@ -12,7 +12,8 @@ angular.module('starter.controllers')
   $scope.videos = [];
 
   $scope.youtubeParams = {
-    key: 'AIzaSyDEv4jB7vQTizPXFw7USNegtHpcYBaqx5s',
+    key: 'AIzaSyDEv4jB7vQTizPXFw7USNegtHpcYBaqx5s', //Android
+    //key: 'AIzaSyCp_NZfdb9Shi99YcMitboLSQ-ibcrQr4Y', //Browser
     //type: 'video',
     maxResults: '5',
     part: 'id,snippet', 
