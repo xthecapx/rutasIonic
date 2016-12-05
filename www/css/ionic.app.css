@@ -10238,6 +10238,9 @@ select.disabled, label.disabled {
   height: 100%;
   border: 0; }
 
+.tutoriales .list {
+  margin-bottom: 2%; }
+
 @font-face {
   font-family: AncizarSerif;
   src: url("../lib/ionic/fonts/ancizarserifregular.otf") format("opentype"); }
