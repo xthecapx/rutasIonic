@@ -300,9 +300,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="844.48364"
-     inkscape:cy="550.20065"
+     inkscape:zoom="0.4637624"
+     inkscape:cx="880.75364"
+     inkscape:cy="239.0807"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -311,7 +311,8 @@
      inkscape:window-x="1106"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     units="px" />
+     units="px"
+     showguides="false" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -334,8 +335,8 @@
        id="rect5393"
        width="110.6117"
        height="110.6117"
-       x="513.5014"
-       y="841.49286"
+       x="897.3186"
+       y="1255.4979"
        rx="13.384561"
        ry="13.384561"
        inkscape:export-xdpi="90"
@@ -669,7 +670,7 @@
     </g>
     <g
        id="g6543-5"
-       transform="translate(1699.7146,357.30209)"
+       transform="translate(2083.5318,771.30719)"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
       <rect
@@ -767,7 +768,7 @@
     </g>
     <g
        id="g5185"
-       transform="translate(1109.6005,69.572556)"
+       transform="translate(1493.4177,483.57766)"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
       <g
@@ -821,7 +822,7 @@
        id="g4456-1-0" />
     <g
        id="g5380"
-       transform="translate(1620.3148,182.78685)"
+       transform="translate(2004.132,596.79195)"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
       <circle
@@ -925,42 +926,42 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="74.842773"
-       y="902.85956"
+       x="458.66"
+       y="1316.8646"
        id="text5423"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan5425"
-         x="74.842773"
-         y="902.85956">A</tspan></text>
+         x="458.66"
+         y="1316.8646">A</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="447.58905"
-       y="906.90021"
+       x="831.40625"
+       y="1320.9053"
        id="text5427"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan5429"
-         x="447.58905"
-         y="906.90021">B</tspan></text>
+         x="831.40625"
+         y="1320.9053">B</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="856.70068"
-       y="902.85956"
+       x="1240.5179"
+       y="1316.8646"
        id="text5431"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan5433"
-         x="856.70068"
-         y="902.85956">C</tspan></text>
+         x="1240.5179"
+         y="1316.8646">C</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -977,16 +978,16 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="508.117"
-       y="811.38751"
+       x="891.9342"
+       y="1225.3926"
        id="text5439"
        sodipodi:linespacing="125%"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan5441"
-         x="508.117"
-         y="811.38751">ICONS</tspan></text>
+         x="891.9342"
+         y="1225.3926">ICONS</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#599e39;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 989.78843,646.78591 0,13.63706 c 0,0 0.7576,6.9448 -6.9448,6.9448 l -114.2735,0 c 0,0 -4.3917,-0.69472 -4.3917,4.44977 l 0,29.89541 c 0,0 -0.8752,5.07072 5.3515,5.07072 l 253.85107,0"
@@ -1213,5 +1214,943 @@
        y="266.64786"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
+    <g
+       id="g4645"
+       transform="matrix(0.79646381,0,0,0.79646381,-138.09465,407.73104)"
+       inkscape:export-filename="X:\Documents\GitHub\rutasIonic\resources\android\icon\drawable-xxxhdpi-icon.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <circle
+         r="118.03278"
+         cy="1475.2194"
+         cx="772.14288"
+         id="path4468-4"
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#0e0e0e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(2.1997184,0,0,2.1997184,3021.0891,397.25501)"
+         id="g5256-8-8-6">
+        <circle
+           r="19.571705"
+           cy="479.84232"
+           cx="-1025.3777"
+           id="path4454-9-0-9-8"
+           style="fill:#dddddd;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           id="g4425-8-5-4-7"
+           transform="translate(2.2077091,-19.077548)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4745-0-1-2-5"
+             d="m -1024.5865,470.04213 a 29.514878,28.441948 0 0 0 -29.515,28.44196 29.514878,28.441948 0 0 0 8.4653,19.90012 l -0.021,-0.003 21.3684,25.41404 0,-16.88332 a 29.514878,28.441948 0 0 0 29.21658,-28.42772 29.514878,28.441948 0 0 0 -29.51498,-28.44196 z m 0,14.22098 a 14.757438,14.220974 0 0 1 14.7573,14.22098 14.757438,14.220974 0 0 1 -14.7573,14.22099 14.757438,14.220974 0 0 1 -14.7576,-14.22099 14.757438,14.220974 0 0 1 14.7576,-14.22098 z"
+             style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:2.34180045;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
+      <circle
+         r="9.2743311"
+         cy="1573.0764"
+         cx="771.42853"
+         id="circle4807-2-4-3-2"
+         style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4645-7"
+       transform="matrix(0.59317397,0,0,0.59317397,289.01771,707.62815)"
+       inkscape:export-filename="X:\Documents\GitHub\rutasIonic\resources\android\icon\drawable-xxhdpi-icon.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <circle
+         r="118.03278"
+         cy="1475.2194"
+         cx="772.14288"
+         id="path4468-4-9"
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#0e0e0e;stroke-width:6.6962657;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(2.1997184,0,0,2.1997184,3021.0891,397.25501)"
+         id="g5256-8-8-6-5">
+        <circle
+           r="19.571705"
+           cy="479.84232"
+           cx="-1025.3777"
+           id="path4454-9-0-9-8-6"
+           style="fill:#dddddd;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           id="g4425-8-5-4-7-4"
+           transform="translate(2.2077091,-19.077548)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4745-0-1-2-5-4"
+             d="m -1024.5865,470.04213 a 29.514878,28.441948 0 0 0 -29.515,28.44196 29.514878,28.441948 0 0 0 8.4653,19.90012 l -0.021,-0.003 21.3684,25.41404 0,-16.88332 a 29.514878,28.441948 0 0 0 29.21658,-28.42772 29.514878,28.441948 0 0 0 -29.51498,-28.44196 z m 0,14.22098 a 14.757438,14.220974 0 0 1 14.7573,14.22098 14.757438,14.220974 0 0 1 -14.7573,14.22099 14.757438,14.220974 0 0 1 -14.7576,-14.22099 14.757438,14.220974 0 0 1 14.7576,-14.22098 z"
+             style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:3.04414678;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
+      <circle
+         r="9.2743311"
+         cy="1573.0764"
+         cx="771.42853"
+         id="circle4807-2-4-3-2-6"
+         style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:6.6962657;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4645-7-9"
+       transform="matrix(0.39327969,0,0,0.39327969,649.77614,1002.5161)"
+       inkscape:export-filename="X:\Documents\GitHub\rutasIonic\resources\android\icon\drawable-xhdpi-icon.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <circle
+         r="118.03278"
+         cy="1475.2194"
+         cx="772.14288"
+         id="path4468-4-9-3"
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#0e0e0e;stroke-width:8.03551865;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(2.1997184,0,0,2.1997184,3021.0891,397.25501)"
+         id="g5256-8-8-6-5-6">
+        <circle
+           r="19.571705"
+           cy="479.84232"
+           cx="-1025.3777"
+           id="path4454-9-0-9-8-6-3"
+           style="fill:#dddddd;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           id="g4425-8-5-4-7-4-0"
+           transform="translate(2.2077091,-19.077548)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4745-0-1-2-5-4-0"
+             d="m -1024.5865,470.04213 a 29.514878,28.441948 0 0 0 -29.515,28.44196 29.514878,28.441948 0 0 0 8.4653,19.90012 l -0.021,-0.003 21.3684,25.41404 0,-16.88332 a 29.514878,28.441948 0 0 0 29.21658,-28.42772 29.514878,28.441948 0 0 0 -29.51498,-28.44196 z m 0,14.22098 a 14.757438,14.220974 0 0 1 14.7573,14.22098 14.757438,14.220974 0 0 1 -14.7573,14.22099 14.757438,14.220974 0 0 1 -14.7576,-14.22099 14.757438,14.220974 0 0 1 14.7576,-14.22098 z"
+             style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:3.65297627;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
+      <circle
+         r="9.2743311"
+         cy="1573.0764"
+         cx="771.42853"
+         id="circle4807-2-4-3-2-6-0"
+         style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:8.03551865;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4645-7-9-4"
+       transform="matrix(0.19663985,0,0,0.19663985,944.72263,1292.603)"
+       inkscape:export-filename="X:\Documents\GitHub\rutasIonic\resources\android\icon\drawable-mdpi-icon.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <circle
+         r="118.03278"
+         cy="1475.2194"
+         cx="772.14288"
+         id="path4468-4-9-3-5"
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#0e0e0e;stroke-width:8.03551865;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(2.1997184,0,0,2.1997184,3021.0891,397.25501)"
+         id="g5256-8-8-6-5-6-7">
+        <circle
+           r="19.571705"
+           cy="479.84232"
+           cx="-1025.3777"
+           id="path4454-9-0-9-8-6-3-3"
+           style="fill:#dddddd;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           id="g4425-8-5-4-7-4-0-0"
+           transform="translate(2.2077091,-19.077548)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4745-0-1-2-5-4-0-7"
+             d="m -1024.5865,470.04213 a 29.514878,28.441948 0 0 0 -29.515,28.44196 29.514878,28.441948 0 0 0 8.4653,19.90012 l -0.021,-0.003 21.3684,25.41404 0,-16.88332 a 29.514878,28.441948 0 0 0 29.21658,-28.42772 29.514878,28.441948 0 0 0 -29.51498,-28.44196 z m 0,14.22098 a 14.757438,14.220974 0 0 1 14.7573,14.22098 14.757438,14.220974 0 0 1 -14.7573,14.22099 14.757438,14.220974 0 0 1 -14.7576,-14.22099 14.757438,14.220974 0 0 1 14.7576,-14.22098 z"
+             style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:3.65297627;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
+      <circle
+         r="9.2743311"
+         cy="1573.0764"
+         cx="771.42853"
+         id="circle4807-2-4-3-2-6-0-1"
+         style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:8.03551865;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4645-7-9-4-0"
+       transform="matrix(0.14747988,0,0,0.14747988,1096.4494,1365.1247)"
+       inkscape:export-filename="X:\Documents\GitHub\rutasIonic\resources\android\icon\drawable-ldpi-icon.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <circle
+         r="118.03278"
+         cy="1475.2194"
+         cx="772.14288"
+         id="path4468-4-9-3-5-6"
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#0e0e0e;stroke-width:8.03551865;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(2.1997184,0,0,2.1997184,3021.0891,397.25501)"
+         id="g5256-8-8-6-5-6-7-8">
+        <circle
+           r="19.571705"
+           cy="479.84232"
+           cx="-1025.3777"
+           id="path4454-9-0-9-8-6-3-3-0"
+           style="fill:#dddddd;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           id="g4425-8-5-4-7-4-0-0-2"
+           transform="translate(2.2077091,-19.077548)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4745-0-1-2-5-4-0-7-6"
+             d="m -1024.5865,470.04213 a 29.514878,28.441948 0 0 0 -29.515,28.44196 29.514878,28.441948 0 0 0 8.4653,19.90012 l -0.021,-0.003 21.3684,25.41404 0,-16.88332 a 29.514878,28.441948 0 0 0 29.21658,-28.42772 29.514878,28.441948 0 0 0 -29.51498,-28.44196 z m 0,14.22098 a 14.757438,14.220974 0 0 1 14.7573,14.22098 14.757438,14.220974 0 0 1 -14.7573,14.22099 14.757438,14.220974 0 0 1 -14.7576,-14.22099 14.757438,14.220974 0 0 1 14.7576,-14.22098 z"
+             style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:3.65297627;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
+      <circle
+         r="9.2743311"
+         cy="1573.0764"
+         cx="771.42853"
+         id="circle4807-2-4-3-2-6-0-1-6"
+         style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:8.03551865;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4645-7-9-4-6"
+       transform="matrix(0.29823225,0,0,0.29823225,1086.7988,1142.7319)"
+       inkscape:export-filename="X:\Documents\GitHub\rutasIonic\resources\android\icon\drawable-hdpi-icon.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <circle
+         r="118.03278"
+         cy="1475.2194"
+         cx="772.14288"
+         id="path4468-4-9-3-5-8"
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#0e0e0e;stroke-width:5.35701227;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(2.1997184,0,0,2.1997184,3021.0891,397.25501)"
+         id="g5256-8-8-6-5-6-7-4">
+        <circle
+           r="19.571705"
+           cy="479.84232"
+           cx="-1025.3777"
+           id="path4454-9-0-9-8-6-3-3-7"
+           style="fill:#dddddd;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           id="g4425-8-5-4-7-4-0-0-8"
+           transform="translate(2.2077091,-19.077548)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4745-0-1-2-5-4-0-7-3"
+             d="m -1024.5865,470.04213 a 29.514878,28.441948 0 0 0 -29.515,28.44196 29.514878,28.441948 0 0 0 8.4653,19.90012 l -0.021,-0.003 21.3684,25.41404 0,-16.88332 a 29.514878,28.441948 0 0 0 29.21658,-28.42772 29.514878,28.441948 0 0 0 -29.51498,-28.44196 z m 0,14.22098 a 14.757438,14.220974 0 0 1 14.7573,14.22098 14.757438,14.220974 0 0 1 -14.7573,14.22099 14.757438,14.220974 0 0 1 -14.7576,-14.22099 14.757438,14.220974 0 0 1 14.7576,-14.22098 z"
+             style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:2.43531728;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
+      <circle
+         r="9.2743311"
+         cy="1573.0764"
+         cx="771.42853"
+         id="circle4807-2-4-3-2-6-0-1-9"
+         style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:5.35701227;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4645-3"
+       transform="matrix(0.23645019,0,0,0.23645019,246.40935,1669.6746)"
+       inkscape:export-filename="X:\Documents\GitHub\rutasIonic\resources\ios\icon\icon.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <circle
+         r="118.03278"
+         cy="1475.2194"
+         cx="772.14288"
+         id="path4468-4-95"
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#0e0e0e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(2.1997184,0,0,2.1997184,3021.0891,397.25501)"
+         id="g5256-8-8-6-4">
+        <circle
+           r="19.571705"
+           cy="479.84232"
+           cx="-1025.3777"
+           id="path4454-9-0-9-8-9"
+           style="fill:#dddddd;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           id="g4425-8-5-4-7-6"
+           transform="translate(2.2077091,-19.077548)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4745-0-1-2-5-8"
+             d="m -1024.5865,470.04213 a 29.514878,28.441948 0 0 0 -29.515,28.44196 29.514878,28.441948 0 0 0 8.4653,19.90012 l -0.021,-0.003 21.3684,25.41404 0,-16.88332 a 29.514878,28.441948 0 0 0 29.21658,-28.42772 29.514878,28.441948 0 0 0 -29.51498,-28.44196 z m 0,14.22098 a 14.757438,14.220974 0 0 1 14.7573,14.22098 14.757438,14.220974 0 0 1 -14.7573,14.22099 14.757438,14.220974 0 0 1 -14.7576,-14.22099 14.757438,14.220974 0 0 1 14.7576,-14.22098 z"
+             style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:2.34180045;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
+      <circle
+         r="9.2743311"
+         cy="1573.0764"
+         cx="771.42853"
+         id="circle4807-2-4-3-2-9"
+         style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="457.13062"
+       y="1444.8044"
+       id="text4851"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4853"
+         x="457.13062"
+         y="1444.8044">Android</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="439.88043"
+       y="1804.9027"
+       id="text4855"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4857"
+         x="439.88043"
+         y="1804.9027">IOS</tspan><tspan
+         sodipodi:role="line"
+         x="439.88043"
+         y="1854.9027"
+         id="tspan4859" /></text>
+    <g
+       id="g4645-72"
+       transform="matrix(0.47290039,0,0,0.47290039,236.2348,1320.8587)"
+       inkscape:export-filename="X:\Documents\GitHub\rutasIonic\resources\ios\icon\icon@2x.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <circle
+         r="118.03278"
+         cy="1475.2194"
+         cx="772.14288"
+         id="path4468-4-1"
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#0e0e0e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(2.1997184,0,0,2.1997184,3021.0891,397.25501)"
+         id="g5256-8-8-6-8">
+        <circle
+           r="19.571705"
+           cy="479.84232"
+           cx="-1025.3777"
+           id="path4454-9-0-9-8-8"
+           style="fill:#dddddd;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           id="g4425-8-5-4-7-8"
+           transform="translate(2.2077091,-19.077548)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4745-0-1-2-5-6"
+             d="m -1024.5865,470.04213 a 29.514878,28.441948 0 0 0 -29.515,28.44196 29.514878,28.441948 0 0 0 8.4653,19.90012 l -0.021,-0.003 21.3684,25.41404 0,-16.88332 a 29.514878,28.441948 0 0 0 29.21658,-28.42772 29.514878,28.441948 0 0 0 -29.51498,-28.44196 z m 0,14.22098 a 14.757438,14.220974 0 0 1 14.7573,14.22098 14.757438,14.220974 0 0 1 -14.7573,14.22099 14.757438,14.220974 0 0 1 -14.7576,-14.22099 14.757438,14.220974 0 0 1 14.7576,-14.22098 z"
+             style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:2.34180045;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
+      <circle
+         r="9.2743311"
+         cy="1573.0764"
+         cx="771.42853"
+         id="circle4807-2-4-3-2-62"
+         style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4645-35"
+       transform="matrix(0.16592996,0,0,0.16592996,631.42371,1773.7074)"
+       inkscape:export-filename="X:\Documents\GitHub\rutasIonic\resources\ios\icon\icon-40.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <circle
+         r="118.03278"
+         cy="1475.2194"
+         cx="772.14288"
+         id="path4468-4-3"
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#0e0e0e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(2.1997184,0,0,2.1997184,3021.0891,397.25501)"
+         id="g5256-8-8-6-7">
+        <circle
+           r="19.571705"
+           cy="479.84232"
+           cx="-1025.3777"
+           id="path4454-9-0-9-8-98"
+           style="fill:#dddddd;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           id="g4425-8-5-4-7-3"
+           transform="translate(2.2077091,-19.077548)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4745-0-1-2-5-3"
+             d="m -1024.5865,470.04213 a 29.514878,28.441948 0 0 0 -29.515,28.44196 29.514878,28.441948 0 0 0 8.4653,19.90012 l -0.021,-0.003 21.3684,25.41404 0,-16.88332 a 29.514878,28.441948 0 0 0 29.21658,-28.42772 29.514878,28.441948 0 0 0 -29.51498,-28.44196 z m 0,14.22098 a 14.757438,14.220974 0 0 1 14.7573,14.22098 14.757438,14.220974 0 0 1 -14.7573,14.22099 14.757438,14.220974 0 0 1 -14.7576,-14.22099 14.757438,14.220974 0 0 1 14.7576,-14.22098 z"
+             style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:2.34180045;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
+      <circle
+         r="9.2743311"
+         cy="1573.0764"
+         cx="771.42853"
+         id="circle4807-2-4-3-2-65"
+         style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4645-5"
+       transform="matrix(0.33185992,0,0,0.33185992,638.67469,1528.9243)"
+       inkscape:export-filename="X:\Documents\GitHub\rutasIonic\resources\ios\icon\icon-40@2x.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <circle
+         r="118.03278"
+         cy="1475.2194"
+         cx="772.14288"
+         id="path4468-4-4"
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#0e0e0e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(2.1997184,0,0,2.1997184,3021.0891,397.25501)"
+         id="g5256-8-8-6-9">
+        <circle
+           r="19.571705"
+           cy="479.84232"
+           cx="-1025.3777"
+           id="path4454-9-0-9-8-7"
+           style="fill:#dddddd;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           id="g4425-8-5-4-7-7"
+           transform="translate(2.2077091,-19.077548)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4745-0-1-2-5-7"
+             d="m -1024.5865,470.04213 a 29.514878,28.441948 0 0 0 -29.515,28.44196 29.514878,28.441948 0 0 0 8.4653,19.90012 l -0.021,-0.003 21.3684,25.41404 0,-16.88332 a 29.514878,28.441948 0 0 0 29.21658,-28.42772 29.514878,28.441948 0 0 0 -29.51498,-28.44196 z m 0,14.22098 a 14.757438,14.220974 0 0 1 14.7573,14.22098 14.757438,14.220974 0 0 1 -14.7573,14.22099 14.757438,14.220974 0 0 1 -14.7576,-14.22099 14.757438,14.220974 0 0 1 14.7576,-14.22098 z"
+             style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:2.34180045;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
+      <circle
+         r="9.2743311"
+         cy="1573.0764"
+         cx="771.42853"
+         id="circle4807-2-4-3-2-91"
+         style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4645-30"
+       transform="matrix(0.49778988,0,0,0.49778988,685.80497,1284.1412)"
+       inkscape:export-filename="X:\Documents\GitHub\rutasIonic\resources\ios\icon\icon-40@3x.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <circle
+         r="118.03278"
+         cy="1475.2194"
+         cx="772.14288"
+         id="path4468-4-6"
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#0e0e0e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(2.1997184,0,0,2.1997184,3021.0891,397.25501)"
+         id="g5256-8-8-6-2">
+        <circle
+           r="19.571705"
+           cy="479.84232"
+           cx="-1025.3777"
+           id="path4454-9-0-9-8-5"
+           style="fill:#dddddd;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           id="g4425-8-5-4-7-2"
+           transform="translate(2.2077091,-19.077548)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4745-0-1-2-5-2"
+             d="m -1024.5865,470.04213 a 29.514878,28.441948 0 0 0 -29.515,28.44196 29.514878,28.441948 0 0 0 8.4653,19.90012 l -0.021,-0.003 21.3684,25.41404 0,-16.88332 a 29.514878,28.441948 0 0 0 29.21658,-28.42772 29.514878,28.441948 0 0 0 -29.51498,-28.44196 z m 0,14.22098 a 14.757438,14.220974 0 0 1 14.7573,14.22098 14.757438,14.220974 0 0 1 -14.7573,14.22099 14.757438,14.220974 0 0 1 -14.7576,-14.22099 14.757438,14.220974 0 0 1 14.7576,-14.22098 z"
+             style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:2.34180045;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
+      <circle
+         r="9.2743311"
+         cy="1573.0764"
+         cx="771.42853"
+         id="circle4807-2-4-3-2-5"
+         style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4645-53"
+       transform="matrix(0.20741245,0,0,0.20741245,1069.0827,1712.5116)"
+       inkscape:export-filename="X:\Documents\GitHub\rutasIonic\resources\ios\icon\icon-50.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <circle
+         r="118.03278"
+         cy="1475.2194"
+         cx="772.14288"
+         id="path4468-4-0"
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#0e0e0e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(2.1997184,0,0,2.1997184,3021.0891,397.25501)"
+         id="g5256-8-8-6-0">
+        <circle
+           r="19.571705"
+           cy="479.84232"
+           cx="-1025.3777"
+           id="path4454-9-0-9-8-76"
+           style="fill:#dddddd;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           id="g4425-8-5-4-7-9"
+           transform="translate(2.2077091,-19.077548)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4745-0-1-2-5-0"
+             d="m -1024.5865,470.04213 a 29.514878,28.441948 0 0 0 -29.515,28.44196 29.514878,28.441948 0 0 0 8.4653,19.90012 l -0.021,-0.003 21.3684,25.41404 0,-16.88332 a 29.514878,28.441948 0 0 0 29.21658,-28.42772 29.514878,28.441948 0 0 0 -29.51498,-28.44196 z m 0,14.22098 a 14.757438,14.220974 0 0 1 14.7573,14.22098 14.757438,14.220974 0 0 1 -14.7573,14.22099 14.757438,14.220974 0 0 1 -14.7576,-14.22099 14.757438,14.220974 0 0 1 14.7576,-14.22098 z"
+             style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:2.34180045;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
+      <circle
+         r="9.2743311"
+         cy="1573.0764"
+         cx="771.42853"
+         id="circle4807-2-4-3-2-4"
+         style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4645-6"
+       transform="matrix(0.4148249,0,0,0.4148249,1084.87,1406.5328)"
+       inkscape:export-filename="X:\Documents\GitHub\rutasIonic\resources\ios\icon\icon-50@2x.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <circle
+         r="118.03278"
+         cy="1475.2194"
+         cx="772.14288"
+         id="path4468-4-31"
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#0e0e0e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(2.1997184,0,0,2.1997184,3021.0891,397.25501)"
+         id="g5256-8-8-6-47">
+        <circle
+           r="19.571705"
+           cy="479.84232"
+           cx="-1025.3777"
+           id="path4454-9-0-9-8-3"
+           style="fill:#dddddd;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           id="g4425-8-5-4-7-1"
+           transform="translate(2.2077091,-19.077548)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4745-0-1-2-5-79"
+             d="m -1024.5865,470.04213 a 29.514878,28.441948 0 0 0 -29.515,28.44196 29.514878,28.441948 0 0 0 8.4653,19.90012 l -0.021,-0.003 21.3684,25.41404 0,-16.88332 a 29.514878,28.441948 0 0 0 29.21658,-28.42772 29.514878,28.441948 0 0 0 -29.51498,-28.44196 z m 0,14.22098 a 14.757438,14.220974 0 0 1 14.7573,14.22098 14.757438,14.220974 0 0 1 -14.7573,14.22099 14.757438,14.220974 0 0 1 -14.7576,-14.22099 14.757438,14.220974 0 0 1 14.7576,-14.22098 z"
+             style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:2.34180045;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
+      <circle
+         r="9.2743311"
+         cy="1573.0764"
+         cx="771.42853"
+         id="circle4807-2-4-3-2-41"
+         style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4645-65"
+       transform="matrix(0.24889494,0,0,0.24889494,1359.025,1651.3159)"
+       inkscape:export-filename="X:\Documents\GitHub\rutasIonic\resources\ios\icon\icon-60.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <circle
+         r="118.03278"
+         cy="1475.2194"
+         cx="772.14288"
+         id="path4468-4-8"
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#0e0e0e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(2.1997184,0,0,2.1997184,3021.0891,397.25501)"
+         id="g5256-8-8-6-6">
+        <circle
+           r="19.571705"
+           cy="479.84232"
+           cx="-1025.3777"
+           id="path4454-9-0-9-8-75"
+           style="fill:#dddddd;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           id="g4425-8-5-4-7-95"
+           transform="translate(2.2077091,-19.077548)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4745-0-1-2-5-89"
+             d="m -1024.5865,470.04213 a 29.514878,28.441948 0 0 0 -29.515,28.44196 29.514878,28.441948 0 0 0 8.4653,19.90012 l -0.021,-0.003 21.3684,25.41404 0,-16.88332 a 29.514878,28.441948 0 0 0 29.21658,-28.42772 29.514878,28.441948 0 0 0 -29.51498,-28.44196 z m 0,14.22098 a 14.757438,14.220974 0 0 1 14.7573,14.22098 14.757438,14.220974 0 0 1 -14.7573,14.22099 14.757438,14.220974 0 0 1 -14.7576,-14.22099 14.757438,14.220974 0 0 1 14.7576,-14.22098 z"
+             style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:2.34180045;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
+      <circle
+         r="9.2743311"
+         cy="1573.0764"
+         cx="771.42853"
+         id="circle4807-2-4-3-2-3"
+         style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4645-32"
+       transform="matrix(0.49778988,0,0,0.49778988,1321.9065,1284.1412)"
+       inkscape:export-filename="X:\Documents\GitHub\rutasIonic\resources\ios\icon\icon-60@2x.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <circle
+         r="118.03278"
+         cy="1475.2194"
+         cx="772.14288"
+         id="path4468-4-5"
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#0e0e0e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(2.1997184,0,0,2.1997184,3021.0891,397.25501)"
+         id="g5256-8-8-6-83">
+        <circle
+           r="19.571705"
+           cy="479.84232"
+           cx="-1025.3777"
+           id="path4454-9-0-9-8-768"
+           style="fill:#dddddd;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           id="g4425-8-5-4-7-28"
+           transform="translate(2.2077091,-19.077548)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4745-0-1-2-5-20"
+             d="m -1024.5865,470.04213 a 29.514878,28.441948 0 0 0 -29.515,28.44196 29.514878,28.441948 0 0 0 8.4653,19.90012 l -0.021,-0.003 21.3684,25.41404 0,-16.88332 a 29.514878,28.441948 0 0 0 29.21658,-28.42772 29.514878,28.441948 0 0 0 -29.51498,-28.44196 z m 0,14.22098 a 14.757438,14.220974 0 0 1 14.7573,14.22098 14.757438,14.220974 0 0 1 -14.7573,14.22099 14.757438,14.220974 0 0 1 -14.7576,-14.22099 14.757438,14.220974 0 0 1 14.7576,-14.22098 z"
+             style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:2.34180045;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
+      <circle
+         r="9.2743311"
+         cy="1573.0764"
+         cx="771.42853"
+         id="circle4807-2-4-3-2-35"
+         style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4645-2"
+       transform="matrix(0.74668482,0,0,0.74668482,1377.508,916.9666)"
+       inkscape:export-filename="X:\Documents\GitHub\rutasIonic\resources\ios\icon\icon-60@3x.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <circle
+         r="118.03278"
+         cy="1475.2194"
+         cx="772.14288"
+         id="path4468-4-09"
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#0e0e0e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(2.1997184,0,0,2.1997184,3021.0891,397.25501)"
+         id="g5256-8-8-6-88">
+        <circle
+           r="19.571705"
+           cy="479.84232"
+           cx="-1025.3777"
+           id="path4454-9-0-9-8-1"
+           style="fill:#dddddd;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           id="g4425-8-5-4-7-33"
+           transform="translate(2.2077091,-19.077548)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4745-0-1-2-5-28"
+             d="m -1024.5865,470.04213 a 29.514878,28.441948 0 0 0 -29.515,28.44196 29.514878,28.441948 0 0 0 8.4653,19.90012 l -0.021,-0.003 21.3684,25.41404 0,-16.88332 a 29.514878,28.441948 0 0 0 29.21658,-28.42772 29.514878,28.441948 0 0 0 -29.51498,-28.44196 z m 0,14.22098 a 14.757438,14.220974 0 0 1 14.7573,14.22098 14.757438,14.220974 0 0 1 -14.7573,14.22099 14.757438,14.220974 0 0 1 -14.7576,-14.22099 14.757438,14.220974 0 0 1 14.7576,-14.22098 z"
+             style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:2.34180045;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
+      <circle
+         r="9.2743311"
+         cy="1573.0764"
+         cx="771.42853"
+         id="circle4807-2-4-3-2-97"
+         style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4645-352"
+       transform="matrix(0.29867393,0,0,0.29867393,384.29561,1887.8926)"
+       inkscape:export-filename="X:\Documents\GitHub\rutasIonic\resources\ios\icon\icon-72.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <circle
+         r="118.03278"
+         cy="1475.2194"
+         cx="772.14288"
+         id="path4468-4-02"
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#0e0e0e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(2.1997184,0,0,2.1997184,3021.0891,397.25501)"
+         id="g5256-8-8-6-27">
+        <circle
+           r="19.571705"
+           cy="479.84232"
+           cx="-1025.3777"
+           id="path4454-9-0-9-8-50"
+           style="fill:#dddddd;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           id="g4425-8-5-4-7-30"
+           transform="translate(2.2077091,-19.077548)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4745-0-1-2-5-1"
+             d="m -1024.5865,470.04213 a 29.514878,28.441948 0 0 0 -29.515,28.44196 29.514878,28.441948 0 0 0 8.4653,19.90012 l -0.021,-0.003 21.3684,25.41404 0,-16.88332 a 29.514878,28.441948 0 0 0 29.21658,-28.42772 29.514878,28.441948 0 0 0 -29.51498,-28.44196 z m 0,14.22098 a 14.757438,14.220974 0 0 1 14.7573,14.22098 14.757438,14.220974 0 0 1 -14.7573,14.22099 14.757438,14.220974 0 0 1 -14.7576,-14.22099 14.757438,14.220974 0 0 1 14.7576,-14.22098 z"
+             style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:2.34180045;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
+      <circle
+         r="9.2743311"
+         cy="1573.0764"
+         cx="771.42853"
+         id="circle4807-2-4-3-2-33"
+         style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4645-24"
+       transform="matrix(0.59734786,0,0,0.59734786,368.64763,1447.283)"
+       inkscape:export-filename="X:\Documents\GitHub\rutasIonic\resources\ios\icon\icon-72@2x.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <circle
+         r="118.03278"
+         cy="1475.2194"
+         cx="772.14288"
+         id="path4468-4-7"
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#0e0e0e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(2.1997184,0,0,2.1997184,3021.0891,397.25501)"
+         id="g5256-8-8-6-04">
+        <circle
+           r="19.571705"
+           cy="479.84232"
+           cx="-1025.3777"
+           id="path4454-9-0-9-8-71"
+           style="fill:#dddddd;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           id="g4425-8-5-4-7-27"
+           transform="translate(2.2077091,-19.077548)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4745-0-1-2-5-42"
+             d="m -1024.5865,470.04213 a 29.514878,28.441948 0 0 0 -29.515,28.44196 29.514878,28.441948 0 0 0 8.4653,19.90012 l -0.021,-0.003 21.3684,25.41404 0,-16.88332 a 29.514878,28.441948 0 0 0 29.21658,-28.42772 29.514878,28.441948 0 0 0 -29.51498,-28.44196 z m 0,14.22098 a 14.757438,14.220974 0 0 1 14.7573,14.22098 14.757438,14.220974 0 0 1 -14.7573,14.22099 14.757438,14.220974 0 0 1 -14.7576,-14.22099 14.757438,14.220974 0 0 1 14.7576,-14.22098 z"
+             style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:2.34180045;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
+      <circle
+         r="9.2743311"
+         cy="1573.0764"
+         cx="771.42853"
+         id="circle4807-2-4-3-2-0"
+         style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4645-21"
+       transform="matrix(0.31526692,0,0,0.31526692,776.70718,1863.4143)"
+       inkscape:export-filename="X:\Documents\GitHub\rutasIonic\resources\ios\icon\icon-76.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <circle
+         r="118.03278"
+         cy="1475.2194"
+         cx="772.14288"
+         id="path4468-4-61"
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#0e0e0e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(2.1997184,0,0,2.1997184,3021.0891,397.25501)"
+         id="g5256-8-8-6-1">
+        <circle
+           r="19.571705"
+           cy="479.84232"
+           cx="-1025.3777"
+           id="path4454-9-0-9-8-37"
+           style="fill:#dddddd;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           id="g4425-8-5-4-7-76"
+           transform="translate(2.2077091,-19.077548)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4745-0-1-2-5-70"
+             d="m -1024.5865,470.04213 a 29.514878,28.441948 0 0 0 -29.515,28.44196 29.514878,28.441948 0 0 0 8.4653,19.90012 l -0.021,-0.003 21.3684,25.41404 0,-16.88332 a 29.514878,28.441948 0 0 0 29.21658,-28.42772 29.514878,28.441948 0 0 0 -29.51498,-28.44196 z m 0,14.22098 a 14.757438,14.220974 0 0 1 14.7573,14.22098 14.757438,14.220974 0 0 1 -14.7573,14.22099 14.757438,14.220974 0 0 1 -14.7576,-14.22099 14.757438,14.220974 0 0 1 14.7576,-14.22098 z"
+             style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:2.34180045;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
+      <circle
+         r="9.2743311"
+         cy="1573.0764"
+         cx="771.42853"
+         id="circle4807-2-4-3-2-627"
+         style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4645-59"
+       transform="matrix(0.63053385,0,0,0.63053385,722.21543,1398.3264)"
+       inkscape:export-filename="X:\Documents\GitHub\rutasIonic\resources\ios\icon\icon-76@2x.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <circle
+         r="118.03278"
+         cy="1475.2194"
+         cx="772.14288"
+         id="path4468-4-69"
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#0e0e0e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(2.1997184,0,0,2.1997184,3021.0891,397.25501)"
+         id="g5256-8-8-6-66">
+        <circle
+           r="19.571705"
+           cy="479.84232"
+           cx="-1025.3777"
+           id="path4454-9-0-9-8-56"
+           style="fill:#dddddd;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           id="g4425-8-5-4-7-73"
+           transform="translate(2.2077091,-19.077548)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4745-0-1-2-5-5"
+             d="m -1024.5865,470.04213 a 29.514878,28.441948 0 0 0 -29.515,28.44196 29.514878,28.441948 0 0 0 8.4653,19.90012 l -0.021,-0.003 21.3684,25.41404 0,-16.88332 a 29.514878,28.441948 0 0 0 29.21658,-28.42772 29.514878,28.441948 0 0 0 -29.51498,-28.44196 z m 0,14.22098 a 14.757438,14.220974 0 0 1 14.7573,14.22098 14.757438,14.220974 0 0 1 -14.7573,14.22099 14.757438,14.220974 0 0 1 -14.7576,-14.22099 14.757438,14.220974 0 0 1 14.7576,-14.22098 z"
+             style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:2.34180045;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
+      <circle
+         r="9.2743311"
+         cy="1573.0764"
+         cx="771.42853"
+         id="circle4807-2-4-3-2-04"
+         style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4645-1"
+       transform="matrix(0.69275758,0,0,0.69275758,908.0788,1306.5328)"
+       inkscape:export-filename="X:\Documents\GitHub\rutasIonic\resources\ios\icon\icon-83.5@2x.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <circle
+         r="118.03278"
+         cy="1475.2194"
+         cx="772.14288"
+         id="path4468-4-94"
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#0e0e0e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(2.1997184,0,0,2.1997184,3021.0891,397.25501)"
+         id="g5256-8-8-6-67">
+        <circle
+           r="19.571705"
+           cy="479.84232"
+           cx="-1025.3777"
+           id="path4454-9-0-9-8-714"
+           style="fill:#dddddd;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           id="g4425-8-5-4-7-74"
+           transform="translate(2.2077091,-19.077548)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4745-0-1-2-5-37"
+             d="m -1024.5865,470.04213 a 29.514878,28.441948 0 0 0 -29.515,28.44196 29.514878,28.441948 0 0 0 8.4653,19.90012 l -0.021,-0.003 21.3684,25.41404 0,-16.88332 a 29.514878,28.441948 0 0 0 29.21658,-28.42772 29.514878,28.441948 0 0 0 -29.51498,-28.44196 z m 0,14.22098 a 14.757438,14.220974 0 0 1 14.7573,14.22098 14.757438,14.220974 0 0 1 -14.7573,14.22099 14.757438,14.220974 0 0 1 -14.7576,-14.22099 14.757438,14.220974 0 0 1 14.7576,-14.22098 z"
+             style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:2.34180045;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
+      <circle
+         r="9.2743311"
+         cy="1573.0764"
+         cx="771.42853"
+         id="circle4807-2-4-3-2-32"
+         style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4645-27"
+       transform="matrix(0.12029922,0,0,0.12029922,1511.8201,2151.0344)"
+       inkscape:export-filename="X:\Documents\GitHub\rutasIonic\resources\ios\icon\icon-small.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <circle
+         r="118.03278"
+         cy="1475.2194"
+         cx="772.14288"
+         id="path4468-4-71"
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#0e0e0e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(2.1997184,0,0,2.1997184,3021.0891,397.25501)"
+         id="g5256-8-8-6-96">
+        <circle
+           r="19.571705"
+           cy="479.84232"
+           cx="-1025.3777"
+           id="path4454-9-0-9-8-35"
+           style="fill:#dddddd;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           id="g4425-8-5-4-7-25"
+           transform="translate(2.2077091,-19.077548)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4745-0-1-2-5-56"
+             d="m -1024.5865,470.04213 a 29.514878,28.441948 0 0 0 -29.515,28.44196 29.514878,28.441948 0 0 0 8.4653,19.90012 l -0.021,-0.003 21.3684,25.41404 0,-16.88332 a 29.514878,28.441948 0 0 0 29.21658,-28.42772 29.514878,28.441948 0 0 0 -29.51498,-28.44196 z m 0,14.22098 a 14.757438,14.220974 0 0 1 14.7573,14.22098 14.757438,14.220974 0 0 1 -14.7573,14.22099 14.757438,14.220974 0 0 1 -14.7576,-14.22099 14.757438,14.220974 0 0 1 14.7576,-14.22098 z"
+             style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:2.34180045;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
+      <circle
+         r="9.2743311"
+         cy="1573.0764"
+         cx="771.42853"
+         id="circle4807-2-4-3-2-90"
+         style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4645-70"
+       transform="matrix(0.24059844,0,0,0.24059844,1519.683,1973.5667)"
+       inkscape:export-filename="X:\Documents\GitHub\rutasIonic\resources\ios\icon\icon-small@2x.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <circle
+         r="118.03278"
+         cy="1475.2194"
+         cx="772.14288"
+         id="path4468-4-64"
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#0e0e0e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(2.1997184,0,0,2.1997184,3021.0891,397.25501)"
+         id="g5256-8-8-6-77">
+        <circle
+           r="19.571705"
+           cy="479.84232"
+           cx="-1025.3777"
+           id="path4454-9-0-9-8-33"
+           style="fill:#dddddd;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           id="g4425-8-5-4-7-67"
+           transform="translate(2.2077091,-19.077548)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4745-0-1-2-5-83"
+             d="m -1024.5865,470.04213 a 29.514878,28.441948 0 0 0 -29.515,28.44196 29.514878,28.441948 0 0 0 8.4653,19.90012 l -0.021,-0.003 21.3684,25.41404 0,-16.88332 a 29.514878,28.441948 0 0 0 29.21658,-28.42772 29.514878,28.441948 0 0 0 -29.51498,-28.44196 z m 0,14.22098 a 14.757438,14.220974 0 0 1 14.7573,14.22098 14.757438,14.220974 0 0 1 -14.7573,14.22099 14.757438,14.220974 0 0 1 -14.7576,-14.22099 14.757438,14.220974 0 0 1 14.7576,-14.22098 z"
+             style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:2.34180045;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
+      <circle
+         r="9.2743311"
+         cy="1573.0764"
+         cx="771.42853"
+         id="circle4807-2-4-3-2-42"
+         style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g4645-4"
+       transform="matrix(0.36089766,0,0,0.36089766,1562.0463,1796.0989)"
+       inkscape:export-filename="X:\Documents\GitHub\rutasIonic\resources\ios\icon\icon-small@3x.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <circle
+         r="118.03278"
+         cy="1475.2194"
+         cx="772.14288"
+         id="path4468-4-17"
+         style="opacity:1;fill:#efefef;fill-opacity:1;stroke:#0e0e0e;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(2.1997184,0,0,2.1997184,3021.0891,397.25501)"
+         id="g5256-8-8-6-80">
+        <circle
+           r="19.571705"
+           cy="479.84232"
+           cx="-1025.3777"
+           id="path4454-9-0-9-8-92"
+           style="fill:#dddddd;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <g
+           id="g4425-8-5-4-7-89"
+           transform="translate(2.2077091,-19.077548)">
+          <path
+             inkscape:connector-curvature="0"
+             id="path4745-0-1-2-5-74"
+             d="m -1024.5865,470.04213 a 29.514878,28.441948 0 0 0 -29.515,28.44196 29.514878,28.441948 0 0 0 8.4653,19.90012 l -0.021,-0.003 21.3684,25.41404 0,-16.88332 a 29.514878,28.441948 0 0 0 29.21658,-28.42772 29.514878,28.441948 0 0 0 -29.51498,-28.44196 z m 0,14.22098 a 14.757438,14.220974 0 0 1 14.7573,14.22098 14.757438,14.220974 0 0 1 -14.7573,14.22099 14.757438,14.220974 0 0 1 -14.7576,-14.22099 14.757438,14.220974 0 0 1 14.7576,-14.22098 z"
+             style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:2.34180045;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
+      <circle
+         r="9.2743311"
+         cy="1573.0764"
+         cx="771.42853"
+         id="circle4807-2-4-3-2-63"
+         style="opacity:0.93999999;fill:#009638;fill-opacity:1;stroke:#000000;stroke-width:5;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
   </g>
 </svg>
