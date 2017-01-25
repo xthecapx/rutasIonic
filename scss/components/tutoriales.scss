@@ -24,4 +24,23 @@
   .list {
     margin-bottom: 2%;
   }
+
+  .videogular-container {
+    width: 100%;
+    height: 320px;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  videogular vg-poster, [videogular] vg-poster {
+    z-index: 100;
+  }
+
+  videogular vg-overlay-play, [videogular] vg-overlay-play { 
+    z-index: 200;
+  }
+  
+  videogular vg-controls, [videogular] vg-controls {
+    z-index: 300;
+  }
 }

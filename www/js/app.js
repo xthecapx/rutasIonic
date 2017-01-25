@@ -3,7 +3,15 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives', 'starter.services', 'youtube-embed'])
+angular.module('starter', [ 'ionic', 
+                            'starter.controllers', 
+                            'starter.directives', 
+                            'starter.services', 
+                            'ngSanitize', 
+                            'com.2fdevs.videogular',
+			                      'com.2fdevs.videogular.plugins.controls',
+                            'com.2fdevs.videogular.plugins.overlayplay',
+                            'com.2fdevs.videogular.plugins.poster'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
