@@ -24,11 +24,35 @@
             <vg-poster vg-url='config.plugins.poster'></vg-poster>
           </videogular>
         </div>
-        <div class="playlist">
-          <ul>
-            <li><a ng-click="setVideo(0)">Pale Blue Dot</a></li>
-            <li><a ng-click="setVideo(1)">Big Buck Bunny</a></li>
-          </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div class="list">
+          <label class="item item-input item-select">
+            <div class="input-label">
+              Categoría
+            </div>
+            <select name="categoria" id="categoria" ng-model="categoria.repeatSelect">
+              <option ng-repeat="option in categoria.availableOptions" value="{{option.id}}">{{option.name}}</option>
+            </select>
+          </label>
+          <label
+            class="item item-input item-select"
+            ng-class="{disabled:!disable.video}">
+            <div class="input-label">
+              Video <ion-spinner icon="ripple" ng-if="loader.video"></ion-spinner>
+            </div>
+            <select
+              name="video"
+              ng-model="video.repeatSelect"
+              id="video"
+              ng-class="{disabled:!disable.video}"
+              ng-disabled="!disable.video">
+              <option ng-repeat="option in video.availableOptions" value="{{option.id}}">{{option.name}}</option>
+            </select>
+          </label>
         </div>
       </div>
     </div>
