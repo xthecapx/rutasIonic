@@ -10172,6 +10172,13 @@ select.disabled, label.disabled {
 .afinidades .tooltip-arrow {
   top: 13%; }
 
+.afinidades .afinidades-icon {
+  text-align: center;
+  padding-top: 25px; }
+  .afinidades .afinidades-icon img {
+    width: 50%;
+    max-width: 105px; }
+
 .afinidades-detalle .item-accordion {
   transition: 0.1s all linear; }
 
@@ -10192,6 +10199,13 @@ select.disabled, label.disabled {
     -webkit-transform: rotateX(0deg);
     -moz-transform: rotateX(0deg);
     transform: rotateX(0deg); }
+
+.equivalencias .equivalencias-icon {
+  text-align: center;
+  padding-top: 25px; }
+  .equivalencias .equivalencias-icon img {
+    max-width: 270px;
+    width: 80%; }
 
 .equivalencias-detalle .row {
   border-bottom: solid 1px #009638;
@@ -10263,6 +10277,13 @@ select.disabled, label.disabled {
       z-index: 200; }
     .tutoriales videogular vg-controls, .tutoriales [videogular] vg-controls {
       z-index: 300; }
+
+.rutas .icon-rutas {
+  text-align: center;
+  padding-top: 25px; }
+  .rutas .icon-rutas img {
+    width: 70%;
+    max-width: 250px; }
 
 @font-face {
   font-family: AncizarSerif;
